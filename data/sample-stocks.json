@@ -1,0 +1,29 @@
+[
+  {
+    "symbol": "NABIL",
+    "companyName": "Nabil Bank Limited",
+    "sector": "Commercial Bank",
+    "currentPrice": 525,
+    "previousClose": 500,
+    "source": "Sample educational data",
+    "updatedAt": "2026-08-05"
+  },
+  {
+    "symbol": "NTC",
+    "companyName": "Nepal Doorsanchar Company Limited",
+    "sector": "Others",
+    "currentPrice": 873,
+    "previousClose": 900,
+    "source": "Sample educational data",
+    "updatedAt": "2026-08-05"
+  },
+  {
+    "symbol": "CHCL",
+    "companyName": "Chilime Hydropower Company Limited",
+    "sector": "Hydropower",
+    "currentPrice": 480,
+    "previousClose": 480,
+    "source": "Sample educational data",
+    "updatedAt": "2026-08-05"
+  }
+]

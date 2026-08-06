@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f4f6f8;
+    color: #1f2937;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+
+.title {
+    color: white;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color: #16324f;
+}
+
+.header-tools {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.mode {
+    padding: 8px 12px;
+    border: 1px solid white;
+    border-radius: 6px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+.title h1 {
+    margin: 0;
+}
+
+.search-bar {
+    grid-column: 1 /-1;
+    justify-self: start;
+
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-form input,
+.search-form select,
+.search-form button {
+    padding: 8px 10px;
+    font: inherit;
+}
+
+.search-form input,
+.search-form select {
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+.search-form button {
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    width: min(1100px, 90%);
+    margin: 32px auto;
+}
+
+.market-summary {
+    border-top: 4px solid #2563eb;
+    display: grid;
+    justify-content: space-between;
+    grid-row: 2/4;
+    grid-column: 1/3;
+
+}
+
+.daily-gainers {
+    border-top: 4px solid #16a34a;
+    grid-row: 2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px 6px;
+    border-bottom: 1px solid #e2e8f0;
+    text-align: left;
+}
+
+th {
+    color: #475569;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.positive {
+    color: #15803d;
+    font-weight: 700;
+}
+
+.negative {
+    color: red;
+    font-weight: 700;
+}
+
+.daily-losers {
+    border-top: 4px solid #dc2626;
+    grid-row: 3;
+}
+
+/*
+List of Traded stock style
+*/
+.stock-list {
+    border-top: 4px solid #2563eb;
+    grid-row: 4;
+    grid-column: 1;
+}
+
+.stock-grid {
+    gap: 10px;
+}
+
+.stock-card {
+    flex: 1 1 80px;
+    padding: 10px;
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+}
+
+.stock-card p {
+    margin: 0;
+}
+
+footer {
+    padding: 20px;
+    color: #4b5563;
+    text-align: center;
+}
+
+
+/* 
+	Chart section 
+*/
+.market-chart {
+    grid-column: 2/4;
+    grid-row: 4;
+
+    grid-template-columns: 2fr 1fr;
+    border-top: 4px solid blue;
+}
+
+.index-chart {
+    display: flex;
+    align-items: end;
+    gap: 12px;
+    height: 220px;
+}
+
+
+.chart-column {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%
+}
+
+.chart-bar {
+    width: 100%;
+    max-width: 45px;
+    background-color: rgb(91, 190, 239);
+    border-radius: 6px 6px 0 0;
+}
+
+.monday {
+    height: 45%;
+}
+
+.tuesday {
+    height: 60%;
+}
+
+.wednesday {
+    height: 52%;
+}
+
+.thursday {
+    height: 72%;
+}
+
+.friday {
+    height: 80%;
+}
+
+.chart-column span {
+    margin-top: 8px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
+@media (max-width: 700px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .search-bar,
+    .market-summary,
+    .daily-gainers,
+    .daily-losers,
+    .stock-list,
+    .market-chart {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .title {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .header-tools {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 8px;
+    }
+}

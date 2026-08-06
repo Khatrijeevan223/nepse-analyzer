@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEPSE Analyzer</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+
+<body>
+    <header class="title">
+        <h1 class="logo">
+            NEPSE Analyzer
+        </h1>
+        <div class="header-tools">
+            <time class="date" datetime="2026-08-06">
+                August 6, 2026
+            </time>
+
+            <span class="last-updated">
+                Updated: sample data
+            </span>
+
+            <button class="mode" type="button">
+                Dark Mode
+            </button>
+        </div>
+    </header>
+    <main>
+        <section class="search-bar">
+            <search>
+                <form action="/search" method="GET" class="search-form">
+                    <input type="search" name="search" placeholder="Search by symbol..."
+                        aria-label="Search through site content">
+                    <button type="submit">Search</button>
+                    <label for="sector-filter">Sector</label>
+                    <select id="sector-filter" name="sector">
+                        <option value="all">All sectors</option>
+                        <option value="commercial-bank">Commercial Bank</option>
+                        <option value="hydropower">Hydropower</option>
+                        <option value="insurance">Insurance</option>
+                        <option value="others">Others</option>
+                    </select>
+                </form>
+            </search>
+        </section>
+        <section class="market-summary" id="summary">
+            <h2 class="summary-title">Market Summary</h2>
+            <div class="summary-grid">
+                <article class="summary-card">
+                    <h3>NEPSE Index</h3>
+                    <p class="summary-value">2,645.32</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Open</h3>
+                    <p class="summary-open">2,630.32</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Close</h3>
+                    <p class="summary-close">2,645.32</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Point Change</h3>
+                    <p class="summary-value positive">15.00</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Percentage Change</h3>
+                    <p class="summary-value positive">0.57%</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Turnover</h3>
+                    <p class="summary-value">NPR 8.42 billion</p>
+                </article>
+                <article class="summary-card">
+                    <h3>Total Traded Companies</h3>
+                    <p class="summary-value totalcompanies">345</p>
+                </article>
+            </div>
+        </section>
+        <section class="daily-gainers" id="gainers">
+            <h2>Daily Gainers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NABIL</td>
+                        <td>525</td>
+                        <td class="positive">+5.00%</td>
+                    </tr>
+                    <tr>
+                        <td>UPPER</td>
+                        <td>242</td>
+                        <td class="positive">+3.50%</td>
+                    </tr>
+                    <tr>
+                        <td>CHCL</td>
+                        <td>498</td>
+                        <td class="positive">+2.89%</td>
+                    </tr>
+                    <tr>
+                        <td>CYCL</td>
+                        <td>1300</td>
+                        <td class="positive">+5.00%</td>
+                    </tr>
+                    <tr>
+                        <td>SMHL</td>
+                        <td>498</td>
+                        <td class="positive">+6.00%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="daily-losers" id="losers">
+            <h2>Daily Losers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Symbol</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NLIC</td>
+                        <td>710</td>
+                        <td class="negative">-6.00%</td>
+                    </tr>
+                    <tr>
+                        <td>SHIVM</td>
+                        <td>462</td>
+                        <td class="negative">-5.00%</td>
+                    </tr>
+                    <tr>
+                        <td>API</td>
+                        <td>NPR 188</td>
+                        <td class="negative">-4.00%</td>
+                    </tr>
+                    <tr>
+                        <td>HIDCL</td>
+                        <td>NPR 205</td>
+                        <td class="negative">-3.00%</td>
+                    </tr>
+                    <tr>
+                        <td>NRIC</td>
+                        <td>NPR 795</td>
+                        <td class="negative">-2.00%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <!--List of Traded Stocks-->
+        <section class="stock-list">
+            <h2>List of traded stocks</h2>
+            <div class="stock-grid">
+                <article class="stock-card">
+                    <p>NABIL</p>
+                </article>
+                <article class="stock-card">
+                    <p>SMH</p>
+                </article>
+                <article class="stock-card">
+                    <p>SMHL</p>
+                </article>
+                <article class="stock-card">
+                    <p>NTC</p>
+                </article>
+                <article class="stock-card">
+                    <p>UNL</p>
+                </article>
+            </div>
+        </section>
+
+        <!--Market chart section-->
+        <section class="market-chart" id="market-chart">
+            <h2>NEPSE Market Chart</h2>
+            <p>NEPSE Index — Last Five Trading Days</p>
+            <div class="index-chart" role="img" aria-label="Sample NEPSE Index values for the last five trading days">
+                <div class="chart-column">
+                    <div class="chart-bar monday"></div>
+                    <span>Mon</span>
+                </div>
+
+                <div class="chart-column">
+                    <div class="chart-bar tuesday"></div>
+                    <span>Tue</span>
+                </div>
+
+                <div class="chart-column">
+                    <div class="chart-bar wednesday"></div>
+                    <span>Wed</span>
+                </div>
+
+                <div class="chart-column">
+                    <div class="chart-bar thursday"></div>
+                    <span>Thu</span>
+                </div>
+
+                <div class="chart-column">
+                    <div class="chart-bar friday"></div>
+                    <span>Fri</span>
+                </div>
+            </div>
+
+            <p class="sample-label">Sample data for layout development</p>
+        </section>
+    </main>
+    <footer>
+        <p>Data is provided for educational and informational purposes only. This is not investment advice.</p>
+    </footer>
+</body>
+
+</html>
