@@ -236,6 +236,42 @@ footer {
     margin-top: 8px;
 }
 
+/* 
+Dark Mode
+*/
+
+body.dark-mode
+{
+    background-color: #0f172a;
+    color: #e2e8f0
+}
+body.dark-mode section 
+{
+    background-color:  #1e293b;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+}
+body.dark-mode th
+{
+    color: #cbd5e1;
+}
+
+body.dark-mode th,
+body.dark-mode select 
+{
+    border-color: #475569;
+    background-color: #0f172a;
+    color: #e2e8f0
+}
+
+body.dark-mode .stock-card {
+    color: #93c5fd;
+}
+
+body.dark-mode footer {
+    color: #cbd5e1;
+}
+
+
 footer p {
     margin: 0;
 }
