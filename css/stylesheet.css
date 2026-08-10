@@ -271,6 +271,11 @@ body.dark-mode footer {
     color: #cbd5e1;
 }
 
+.stock-price {
+    font-weight: 700;
+    color: #2563eb;
+    margin-top: 0.5rem;
+}
 
 footer p {
     margin: 0;
