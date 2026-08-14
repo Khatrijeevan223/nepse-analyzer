@@ -26,6 +26,204 @@ themeButton.addEventListener("click", function () {
 );
 
 const stockGrid = document.querySelector(".stock-grid");
+const searchInput = document.querySelector('input[type="search"]');
+const searchForm = document.querySelector(".search-form");
+const sectorFilter = document.querySelector("#sector-filter");
+const gainersTableBody = document.querySelector(".daily-gainers tbody");
+const totalCompanies = document.querySelector(".totalcompanies");
+
+function applyFilters() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const selectedSector = sectorFilter.value;
+
+    const filteredStocks = allStocks.filter(function (stock) {
+        const matchesSearch =
+            stock.symbol.toLowerCase().includes(searchTerm) ||
+            stock.companyName.toLowerCase().includes(searchTerm);
+
+        const normalizedSector = stock.sector
+            .toLowerCase()
+            .replace(" ", "-");
+        const matchesSector =
+            selectedSector === "all" ||
+            normalizedSector === selectedSector;
+
+        return matchesSearch && matchesSector;
+    })
+    displayStocks(filteredStocks);
+}
+
+function calculatePercentageChange(stock) {
+    const pointChange =
+        stock.currentPrice - stock.previousClose;
+
+    if (stock.previousClose === 0) {
+        return 0;
+    }
+
+    return (
+        pointChange / stock.previousClose
+    ) * 100;
+}
+
+function showEmptyTableMessage(tableBody, message) {
+    const row = document.createElement("tr");
+    const cell = document.createElement("td");
+
+    cell.textContent = message;
+    cell.colSpan = 3;
+
+    row.appendChild(cell);
+    tableBody.appendChild(row);
+}
+
+function displayGainers(stocks) {
+    const gainers = stocks
+        .filter(function (stock) {
+            return calculatePercentageChange(stock) > 0;
+        })
+        .sort(function (firstStock, secondStock) {
+            return(
+                calculatePercentageChange(secondStock) -
+                calculatePercentageChange(firstStock)
+            );
+        })
+        .slice(0, 5);
+
+    gainersTableBody.innerHTML = "";
+    gainers.forEach(function (stock) {
+        const row = document.createElement("tr");
+
+        const symbolCell = document.createElement("td");
+        symbolCell.textContent = stock.symbol;
+
+        const priceCell = document.createElement("td");
+        priceCell.textContent = stock.currentPrice;
+
+        const changeCell = document.createElement("td");
+        const percentageChange =
+            calculatePercentageChange(stock);
+
+        changeCell.textContent =
+            "+" + percentageChange.toFixed(2) + "%";
+
+        changeCell.classList.add("positive");
+
+        row.appendChild(symbolCell);
+        row.appendChild(priceCell);
+        row.appendChild(changeCell);
+
+        gainersTableBody.appendChild(row);
+    });
+    if (gainers.length === 0) {
+    showEmptyTableMessage(
+        gainersTableBody,
+        "No gainers available."
+    );
+}
+};
+
+const losersTableBody =
+    document.querySelector(".daily-losers tbody");
+
+function displayLosers(stocks) {
+    const losers = stocks
+        .filter(function (stock) {
+            return calculatePercentageChange(stock) < 0;
+        })
+        .sort(function (firstStock, secondStock) {
+            return (
+                calculatePercentageChange(firstStock) -
+                calculatePercentageChange(secondStock)
+            );
+        })
+        .slice(0, 5);
+
+    losersTableBody.innerHTML = "";
+
+    losers.forEach(function (stock) {
+        const row = document.createElement("tr");
+
+        const symbolCell = document.createElement("td");
+        symbolCell.textContent = stock.symbol;
+
+        const priceCell = document.createElement("td");
+        priceCell.textContent = stock.price;
+
+        const changeCell = document.createElement("td");
+        const percentageChange =
+            calculatePercentageChange(stock);
+
+        changeCell.textContent = percentageChange.toFixed(2) + "%";
+        changeCell.classList.add("negative");
+
+        row.appendChild(symbolCell);
+        row.appendChild(priceCell);
+        row.appendChild(changeCell);
+
+        losersTableBody.appendChild(row);
+    });
+    if (losers.length === 0) {
+    showEmptyTableMessage(
+        losersTableBody,
+        "No losers available."
+    );
+}
+}
+
+function displayStocks(stocks) {
+    stockGrid.innerHTML = "";
+
+    stocks.forEach(function (stock) {
+        const card = document.createElement("article");
+        card.classList.add("stock-card");
+
+        const symbol = document.createElement("h3");
+        symbol.textContent = stock.symbol;
+
+        const companyName = document.createElement("p");
+        companyName.textContent = stock.companyName;
+
+        const price = document.createElement("p");
+        price.textContent = "NPR " + stock.currentPrice;
+        price.classList.add("stock-price");
+
+        // POINT CHANGE
+        const pointChange = stock.currentPrice - stock.previousClose;
+        const change = document.createElement("p");
+        const formattedChange =
+            pointChange > 0 ? "+" + pointChange : pointChange;
+        change.textContent = "Change: " + formattedChange;
+
+        change.classList.add("stock-change");
+        if (pointChange > 0) {
+            change.classList.add("positive");
+        }
+        else if (pointChange < 0) {
+            change.classList.add("negative");
+        }
+        else {
+            change.classList.add("neutral");
+        }
+
+        const percentageChange = calculatePercentageChange(stock);
+        change.textContent = "Change: " + formattedChange + " (" + percentageChange.toFixed(2) + "%)";
+
+
+        card.appendChild(symbol);
+        card.appendChild(companyName);
+        card.appendChild(price);
+        card.appendChild(change);
+        stockGrid.appendChild(card);
+
+    });
+    if (stocks.length === 0) {
+        stockGrid.textContent = "No matching stocks found.";
+        return;
+    }
+}
+
+let allStocks = [];
 
 fetch("data/sample-stocks.json")
     .then(function (response) {
@@ -35,30 +233,24 @@ fetch("data/sample-stocks.json")
 
         return response.json();
     })
+
     .then(function (stocks) {
-        stockGrid.innerHTML = "";
+        allStocks = stocks;
+        displayStocks(allStocks);
+        displayGainers(allStocks);
+        displayLosers(allStocks);
 
-        stocks.forEach(function (stock) {
-            const card = document.createElement("article");
-            card.classList.add("stock-card");
-            const symbol = document.createElement("h3");
-            symbol.textContent = stock.symbol;
-            const companyName = document.createElement("p");
-            companyName.textContent = stock.companyName;
-            const price = document.createElement("p");
-            price.textContent = "NPR " + stock.currentPrice;
-            price.classList.add("stock-price");
-
-            card.appendChild(symbol);
-            card.appendChild(companyName);
-            card.appendChild(price);
-            stockGrid.appendChild(card);
-
-        });
+        totalCompanies.textContent = allStocks.length;
     })
-    .catch(function (error)	
-	{	
-    console.error(error);
-    stockGrid.textContent = "Stock data is temporarily unavailable.";
-	});
 
+    .catch(function (error) {
+        console.error(error);
+        stockGrid.textContent = "Stock data is temporarily unavailable.";
+    });
+
+
+searchInput.addEventListener("input", applyFilters);
+sectorFilter.addEventListener("change", applyFilters);
+searchForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+});
