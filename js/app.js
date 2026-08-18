@@ -31,6 +31,8 @@ const searchForm = document.querySelector(".search-form");
 const sectorFilter = document.querySelector("#sector-filter");
 const gainersTableBody = document.querySelector(".daily-gainers tbody");
 const totalCompanies = document.querySelector(".totalcompanies");
+const indexChart = document.querySelector(".index-chart");
+const chartPeriod = document.querySelector(".chart-period");
 
 function applyFilters() {
     const searchTerm = searchInput.value.toLowerCase();
@@ -83,7 +85,7 @@ function displayGainers(stocks) {
             return calculatePercentageChange(stock) > 0;
         })
         .sort(function (firstStock, secondStock) {
-            return(
+            return (
                 calculatePercentageChange(secondStock) -
                 calculatePercentageChange(firstStock)
             );
@@ -116,11 +118,11 @@ function displayGainers(stocks) {
         gainersTableBody.appendChild(row);
     });
     if (gainers.length === 0) {
-    showEmptyTableMessage(
-        gainersTableBody,
-        "No gainers available."
-    );
-}
+        showEmptyTableMessage(
+            gainersTableBody,
+            "No gainers available."
+        );
+    }
 };
 
 const losersTableBody =
@@ -164,11 +166,11 @@ function displayLosers(stocks) {
         losersTableBody.appendChild(row);
     });
     if (losers.length === 0) {
-    showEmptyTableMessage(
-        losersTableBody,
-        "No losers available."
-    );
-}
+        showEmptyTableMessage(
+            losersTableBody,
+            "No losers available."
+        );
+    }
 }
 
 function displayStocks(stocks) {
@@ -254,3 +256,102 @@ sectorFilter.addEventListener("change", applyFilters);
 searchForm.addEventListener("submit", function (event) {
     event.preventDefault();
 });
+
+function formatChartDate(dateString) {
+    const date = new Date(dateString + "T00:00:00");
+
+    return date.toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric"
+    });
+}
+
+function displayMarketChart(marketHistory) {
+    indexChart.innerHTML = "";
+
+    if (
+        !Array.isArray(marketHistory) ||
+        marketHistory.length === 0
+    ) {
+        indexChart.textContent =
+            "Market history is unavailable.";
+        return;
+    }
+
+
+    const indexValues = marketHistory.map(function (day) {
+        return day.indexValue;
+    });
+
+    const minimumValue = Math.min(...indexValues);
+    const maximumValue = Math.max(...indexValues);
+    const valueRange = maximumValue - minimumValue;
+    const firstDay = marketHistory[0];
+    const lastDay =
+        marketHistory[marketHistory.length - 1];
+
+    indexChart.setAttribute(
+        "aria-label",
+        "NEPSE Index from " +
+        firstDay.date +
+        " at " +
+        firstDay.indexValue +
+        " to " +
+        lastDay.date +
+        " at " +
+        lastDay.indexValue
+    );
+     chartPeriod.textContent =
+    	"NEPSE Index - Last " +
+        marketHistory.length + 
+        " Trading Days";
+
+    marketHistory.forEach(function (day) {
+        const barHeight =
+            valueRange === 0 ? 60 : 30 + ((day.indexValue - minimumValue) /
+                valueRange) * 70;
+
+        const column = document.createElement("div");
+        column.classList.add("chart-column");
+
+        const bar = document.createElement("div");
+        const valueLabel = document.createElement("span");
+
+        valueLabel.classList.add("chart-value");
+        valueLabel.textContent =
+            day.indexValue.toFixed(2);
+
+        bar.appendChild(valueLabel);
+        bar.classList.add("chart-bar");
+        bar.style.height = barHeight + "%";
+        bar.title =
+            day.date + ":" + day.indexValue;
+        const label = document.createElement("span");
+        label.textContent = formatChartDate(day.date);
+
+        column.appendChild(bar);
+        column.appendChild(label);
+        indexChart.appendChild(column);
+    })
+
+}
+
+
+fetch("data/market-history.json")
+    .then(function (response) {
+        if (!response.ok) {
+            throw new Error("Market history could not be loaded");
+        }
+        return response.json();
+    })
+
+    .then(function (marketHistory) {
+        displayMarketChart(marketHistory);
+    })
+
+    .catch(function (error) {
+        console.error(error);
+        indexChart.textContent =
+            "Market chart could not be loaded.";
+    });
+

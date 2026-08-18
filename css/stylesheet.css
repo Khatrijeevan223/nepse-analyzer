@@ -193,6 +193,7 @@ footer {
     align-items: end;
     gap: 12px;
     height: 220px;
+    padding-top: 2rem;
 }
 
 
@@ -232,7 +233,7 @@ footer {
     height: 80%;
 }
 
-.chart-column span {
+.chart-column > span {
     margin-top: 8px;
 }
 
@@ -288,7 +289,19 @@ body.dark-mode footer {
     color: gray;
 }
 
+.chart-bar {
+    position: relative;
+}
 
+.chart-value {
+    position: absolute;
+    top: -1.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.75rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
 
 footer p {
     margin: 0;
@@ -321,5 +334,24 @@ footer p {
         flex-direction: column;
         gap: 8px;
     }
+
+    .index-chart 
+    {
+        gap:6px;
+        height: 190px;
+        padding-top: 2rem;
+    }
+
+    .chart-value
+    {
+        font-size: 0.62rem;
+    }
+
+    .chart-column > span 
+    {
+          font-size: 0.7rem;
+    }
+    
+    
 }
 
