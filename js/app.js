@@ -227,7 +227,7 @@ function displayStocks(stocks) {
 
 let allStocks = [];
 
-fetch("data/sample-stocks.json")
+fetch("data/generated-stocks.json")
     .then(function (response) {
         if (!response.ok) {
             throw new Error("Stock data could not be loaded.");
