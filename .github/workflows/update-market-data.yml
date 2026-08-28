@@ -51,3 +51,4 @@ jobs:
           else
             git commit -m "Update NEPSE market data"
             git push
+          fi
