@@ -3,345 +3,337 @@
     "symbol": "ACLBSL",
     "companyName": "Aarambha Chautari Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 900.0,
-    "previousClose": 880.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 892.4,
+    "previousClose": 900.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ADBL",
     "companyName": "Agricultural Development Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 299.0,
-    "previousClose": 296.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 295.5,
+    "previousClose": 299.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "AHL",
     "companyName": "Asian Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 390.0,
-    "previousClose": 395.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 369.0,
+    "previousClose": 390.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "AHPC",
     "companyName": "Arun Valley Hydropower Development Co. Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 252.7,
-    "previousClose": 251.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 247.5,
+    "previousClose": 252.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "AKJCL",
     "companyName": "Ankhu Khola Jalvidhyut Company Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 343.0,
-    "previousClose": 338.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 336.9,
+    "previousClose": 343.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "AKPL",
     "companyName": "Arun Kabeli Power Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 244.0,
-    "previousClose": 241.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 241.0,
+    "previousClose": 244.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ALBSL",
     "companyName": "Asha Laghubitta Bittiya Sanstha Ltd",
     "sector": "Microfinance",
-    "currentPrice": 1108.0,
-    "previousClose": 1086.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1084.0,
+    "previousClose": 1108.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ALICL",
     "companyName": "Asian Life Insurance Co. Limited",
     "sector": "Life Insurance",
-    "currentPrice": 402.3,
-    "previousClose": 404.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 393.9,
+    "previousClose": 402.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ANLB",
     "companyName": "Aatmanirbhar Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 4920.0,
-    "previousClose": 5001.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 4944.0,
+    "previousClose": 4920.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "APHL",
     "companyName": "Appolo Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 689.0,
-    "previousClose": 672.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 670.6,
+    "previousClose": 689.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "API",
     "companyName": "Api Power Company Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 325.9,
-    "previousClose": 327.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 322.2,
+    "previousClose": 325.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "AVYAN",
     "companyName": "Aviyan Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1017.6,
-    "previousClose": 1010.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1000.0,
+    "previousClose": 1017.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BANDIPUR",
     "companyName": "Bandipur Cablecar and Tourism Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 657.0,
-    "previousClose": 653.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 638.9,
+    "previousClose": 657.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BARUN",
     "companyName": "Barun Hydropower Co. Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 313.9,
-    "previousClose": 310.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 309.0,
+    "previousClose": 313.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BBC",
     "companyName": "Bishal Bazar Company Limited",
     "sector": "Tradings",
-    "currentPrice": 4050.0,
+    "currentPrice": 4000.0,
     "previousClose": 4050.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BEDC",
     "companyName": "Bhugol Energy Development Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 289.0,
-    "previousClose": 288.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 278.0,
+    "previousClose": 289.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BFC",
     "companyName": "Best Finance Company Ltd.",
     "sector": "Finance",
-    "currentPrice": 459.7,
-    "previousClose": 454.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 448.5,
+    "previousClose": 459.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BGWT",
     "companyName": "Bhagawati Hydropower Development Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 513.0,
-    "previousClose": 489.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 493.0,
+    "previousClose": 513.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BHCL",
     "companyName": "Bikash Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 555.0,
-    "previousClose": 552.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 545.0,
+    "previousClose": 555.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BHDC",
     "companyName": "Bindhyabasini Hydropower Development Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 420.0,
-    "previousClose": 417.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 406.0,
+    "previousClose": 420.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BHL",
     "companyName": "Balephi Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 199.7,
-    "previousClose": 201.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 195.3,
+    "previousClose": 199.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BHPL",
     "companyName": "Barahi Hydropower Public Limited",
     "sector": "Hydro Power",
-    "currentPrice": 458.0,
-    "previousClose": 458.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 433.0,
+    "previousClose": 458.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BJHL",
     "companyName": "Bhujung Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 665.0,
-    "previousClose": 686.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 639.0,
+    "previousClose": 665.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BNHC",
     "companyName": "Buddha Bhumi Nepal Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 263.6,
-    "previousClose": 266.2,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "BNL",
-    "companyName": "Bottlers Nepal (Balaju) Limited",
-    "sector": "Manufacturing And Processing",
-    "currentPrice": 14405.0,
-    "previousClose": 14850.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 252.0,
+    "previousClose": 263.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BNT",
     "companyName": "Bottlers Nepal (Terai) Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 11550.1,
-    "previousClose": 11505.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 11570.0,
+    "previousClose": 11550.1,
+    "updatedAt": "2026-08-31"
   },
   {
-    "symbol": "BOKD86KA",
-    "companyName": "BOK Debenture 2086 \"KA\"",
+    "symbol": "BOKD86",
+    "companyName": "8.5% BOK Debenture 2086",
     "sector": "Corporate Debenture",
-    "currentPrice": 1096.5,
-    "previousClose": 1111.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1053.1,
+    "previousClose": 1111.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BPCL",
     "companyName": "Butwal Power Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 640.0,
+    "currentPrice": 627.0,
     "previousClose": 640.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "BUNGAL",
     "companyName": "Bungal Hydro Limited",
     "sector": "Hydro Power",
-    "currentPrice": 542.9,
-    "previousClose": 540.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 510.1,
+    "previousClose": 542.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "C30MF",
     "companyName": "Citizens Super 30 Mutual Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.76,
-    "previousClose": 9.75,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.95,
+    "previousClose": 9.76,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CBBL",
     "companyName": "Chhimek Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 932.0,
-    "previousClose": 933.0,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "CBLD88",
-    "companyName": "Civil Bank Debenture 2088",
-    "sector": "Corporate Debenture",
-    "currentPrice": 1155.0,
-    "previousClose": 1165.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 921.0,
+    "previousClose": 932.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CFCL",
     "companyName": "Central Finance Co. Ltd.",
     "sector": "Finance",
-    "currentPrice": 585.7,
-    "previousClose": 579.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 580.0,
+    "previousClose": 585.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CGH",
     "companyName": "Chandragiri Hills Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 770.0,
+    "currentPrice": 763.1,
     "previousClose": 770.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CHCL",
     "companyName": "Chilime Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 405.0,
-    "previousClose": 427.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 362.5,
+    "previousClose": 405.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CHDC",
     "companyName": "CEDB Holdings Limited",
     "sector": "Investment",
-    "currentPrice": 2183.0,
-    "previousClose": 2184.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 2144.9,
+    "previousClose": 2183.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CHL",
     "companyName": "Chhyangdi Hydropower Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 258.4,
-    "previousClose": 259.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 244.0,
+    "previousClose": 258.4,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CIT",
     "companyName": "Citizen Investment Trust",
     "sector": "Investment",
-    "currentPrice": 1670.0,
-    "previousClose": 1660.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1652.2,
+    "previousClose": 1670.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CITY",
     "companyName": "City Hotel Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 347.0,
-    "previousClose": 343.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 339.0,
+    "previousClose": 347.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "CIZBD86",
+    "companyName": "10.25% Citizens Bank Debenture 2086",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1177.6,
+    "previousClose": 1214.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CKHL",
     "companyName": "Chirkhwa Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 575.0,
-    "previousClose": 577.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 553.1,
+    "previousClose": 575.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CLI",
     "companyName": "Citizen Life Insurance Company Limited",
     "sector": "Life Insurance",
-    "currentPrice": 417.1,
-    "previousClose": 419.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 412.3,
+    "previousClose": 417.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CORBL",
     "companyName": "Corporate Development Bank Limited",
     "sector": "Development Bank Limited",
-    "currentPrice": 902.2,
-    "previousClose": 884.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 880.5,
+    "previousClose": 902.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CREST",
     "companyName": "Crest Micro Life Insurance Limited",
     "sector": "Life Insurance",
-    "currentPrice": 1074.1,
-    "previousClose": 1117.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1044.0,
+    "previousClose": 1074.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CSBY",
@@ -355,641 +347,665 @@
     "symbol": "CSY",
     "companyName": "Citizens Santulit Yojana",
     "sector": "Mutual Fund",
-    "currentPrice": 8.5,
+    "currentPrice": 8.21,
     "previousClose": 8.5,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CYCL",
     "companyName": "CYC Nepal Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1612.0,
-    "previousClose": 1609.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1615.0,
+    "previousClose": 1612.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "CZBIL",
     "companyName": "Citizens Bank International Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 194.8,
-    "previousClose": 194.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 192.0,
+    "previousClose": 194.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "DDBL",
     "companyName": "Deprosc Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 835.0,
-    "previousClose": 829.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 822.1,
+    "previousClose": 835.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "DHEL",
     "companyName": "Daramkhola Hydro Energy Limited",
     "sector": "Hydro Power",
-    "currentPrice": 564.0,
-    "previousClose": 555.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 543.0,
+    "previousClose": 564.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "DHPL",
     "companyName": "Dibyashwori Hydropower Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 274.5,
-    "previousClose": 270.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 269.8,
+    "previousClose": 274.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "DLBS",
     "companyName": "Dhaulagiri Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1007.1,
-    "previousClose": 1034.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 990.0,
+    "previousClose": 1007.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "DOLTI",
     "companyName": "Dolti Power Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 291.6,
-    "previousClose": 288.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 282.0,
+    "previousClose": 291.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "DORDI",
     "companyName": "Dordi Khola Jal Bidyut Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 242.0,
-    "previousClose": 239.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 236.1,
+    "previousClose": 242.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "EBL",
     "companyName": "Everest Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 729.5,
-    "previousClose": 730.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 711.9,
+    "previousClose": 729.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "EBLD85",
     "companyName": "10.50% Everest Bank Limited Debenture 2085",
     "sector": "Corporate Debenture",
-    "currentPrice": 1110.0,
-    "previousClose": 1129.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1140.9,
+    "previousClose": 1110.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "EBLD91",
     "companyName": "Everest Bank Limited Debenture 2091",
     "sector": "Corporate Debenture",
-    "currentPrice": 1061.0,
-    "previousClose": 1069.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1066.0,
+    "previousClose": 1061.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ECL",
     "companyName": "Everest Colour Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 1400.0,
-    "previousClose": 1465.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1320.0,
+    "previousClose": 1400.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "EDBL",
     "companyName": "Excel Development Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 566.0,
-    "previousClose": 568.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 563.1,
+    "previousClose": 566.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "EHPL",
     "companyName": "Eastern Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 313.9,
-    "previousClose": 318.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 300.0,
+    "previousClose": 313.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ENL",
     "companyName": "Emerging Nepal Limited",
     "sector": "Investment",
-    "currentPrice": 764.0,
-    "previousClose": 833.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 784.0,
+    "previousClose": 764.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "FMDBL",
     "companyName": "First Micro Finance Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 728.0,
-    "previousClose": 723.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 720.0,
+    "previousClose": 728.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "FOWAD",
     "companyName": "Forward Microfinance Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 878.0,
-    "previousClose": 887.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 859.0,
+    "previousClose": 878.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "GBBD85",
+    "companyName": "Garima Debenture, 2085",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1058.0,
+    "previousClose": 1054.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GBBL",
     "companyName": "Garima Bikas Bank Limited",
     "sector": "Development Bank Limited",
-    "currentPrice": 422.0,
-    "previousClose": 420.7,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 420.1,
+    "previousClose": 422.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GBILD84/85",
     "companyName": "Global IME Bank Debenture, 2084/85",
     "sector": "Corporate Debenture",
-    "currentPrice": 1130.0,
-    "previousClose": 1135.0,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "GBILD86/87",
-    "companyName": "Global IME Bank Limited Debenture 2086/87",
-    "sector": "Corporate Debenture",
-    "currentPrice": 1055.0,
-    "previousClose": 1084.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1150.0,
+    "previousClose": 1130.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GBIME",
     "companyName": "Global IME Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 242.0,
-    "previousClose": 243.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 240.0,
+    "previousClose": 242.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GBIMESY2",
     "companyName": "Global IME Sammunat Yojana -2",
     "sector": "Mutual Fund",
-    "currentPrice": 8.89,
-    "previousClose": 8.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.92,
+    "previousClose": 8.89,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GBLBS",
     "companyName": "Grameen Bikas Laghubitta Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 666.0,
-    "previousClose": 668.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 660.0,
+    "previousClose": 666.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GCIL",
     "companyName": "Ghorahi Cement Industry Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 370.0,
-    "previousClose": 342.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 398.0,
+    "previousClose": 370.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GFCL",
     "companyName": "Goodwill Finance Limited",
     "sector": "Finance",
-    "currentPrice": 570.0,
-    "previousClose": 568.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 569.0,
+    "previousClose": 570.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GHL",
     "companyName": "Ghalemdi Hydro Limited",
     "sector": "Hydro Power",
-    "currentPrice": 226.9,
-    "previousClose": 226.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 220.0,
+    "previousClose": 226.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GIBF1",
     "companyName": "Global IME Balanced Fund-1",
     "sector": "Mutual Fund",
-    "currentPrice": 10.62,
+    "currentPrice": 10.6,
     "previousClose": 10.62,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GILB",
     "companyName": "Global IME Laghubitta Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 1089.5,
-    "previousClose": 1072.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1070.0,
+    "previousClose": 1089.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GLBSL",
     "companyName": "Gurans Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1705.0,
-    "previousClose": 1675.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1679.0,
+    "previousClose": 1705.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GLH",
     "companyName": "GreenLife Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 247.5,
-    "previousClose": 246.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 241.4,
+    "previousClose": 247.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GMFBS",
     "companyName": "Ganapati Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1146.0,
-    "previousClose": 1130.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1114.0,
+    "previousClose": 1146.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GMFIL",
     "companyName": "Guheshowori Merchant Bank & Finance Co. Ltd.",
     "sector": "Finance",
-    "currentPrice": 418.9,
-    "previousClose": 410.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 410.0,
+    "previousClose": 418.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GMLI",
     "companyName": "Guardian Micro Life Insurance Limited",
     "sector": "Life Insurance",
-    "currentPrice": 958.4,
-    "previousClose": 977.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 933.0,
+    "previousClose": 958.4,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GRDBL",
     "companyName": "Green Development Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 984.0,
-    "previousClose": 969.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 978.9,
+    "previousClose": 984.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GSY",
     "companyName": "Garima Samriddhi Yojana",
     "sector": "Mutual Fund",
-    "currentPrice": 8.95,
-    "previousClose": 9.15,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.92,
+    "previousClose": 8.95,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GUFL",
     "companyName": "Gurkhas Finance Ltd.",
     "sector": "Finance",
-    "currentPrice": 494.0,
-    "previousClose": 500.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 495.0,
+    "previousClose": 494.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "GVL",
     "companyName": "Green Ventures Limited",
     "sector": "Hydro Power",
-    "currentPrice": 476.2,
-    "previousClose": 472.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 472.0,
+    "previousClose": 476.2,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "GWFD83",
+    "companyName": "12 % Goodwill Finance Limited Debenture 2083",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1016.2,
+    "previousClose": 1035.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "H8020",
     "companyName": "Himalayan 80-20",
     "sector": "Mutual Fund",
-    "currentPrice": 11.74,
-    "previousClose": 11.96,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 11.7,
+    "previousClose": 11.74,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HATHY",
     "companyName": "Hathway Investment Nepal Limited",
     "sector": "Investment",
-    "currentPrice": 625.5,
-    "previousClose": 621.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 600.0,
+    "previousClose": 625.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HBL",
     "companyName": "Himalayan Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 188.7,
-    "previousClose": 189.5,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "HBLD86",
-    "companyName": "Himalayan Bank Limited Bond, 2086",
-    "sector": "Corporate Debenture",
-    "currentPrice": 1112.4,
-    "previousClose": 1080.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 186.8,
+    "previousClose": 188.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HDHPC",
     "companyName": "Himal Dolakha Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 202.0,
-    "previousClose": 199.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 195.5,
+    "previousClose": 202.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HDL",
     "companyName": "Himalayan Distillery Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 1163.0,
-    "previousClose": 1162.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1157.0,
+    "previousClose": 1163.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HEI",
     "companyName": "Himalayan Everest Insurance Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 489.9,
-    "previousClose": 505.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 459.0,
+    "previousClose": 489.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HEIP",
     "companyName": "Himalayan Everest Insurance Limited Promoter",
     "sector": "Promotor Share",
-    "currentPrice": 309.3,
-    "previousClose": 338.7,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 318.0,
+    "previousClose": 309.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HFIN",
     "companyName": "Hotel Forest Inn Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 628.0,
-    "previousClose": 616.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 612.0,
+    "previousClose": 628.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HHL",
     "companyName": "Himalayan Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 326.8,
-    "previousClose": 325.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 317.0,
+    "previousClose": 326.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HIDCL",
     "companyName": "Hydorelectricity Investment and Development Company Ltd",
     "sector": "Investment",
-    "currentPrice": 242.0,
+    "currentPrice": 236.8,
     "previousClose": 242.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HIDCLP",
     "companyName": "Hydorelectricity Investment and Development Company Limited Promoter",
     "sector": "Promotor Share",
-    "currentPrice": 181.4,
-    "previousClose": 180.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 179.0,
+    "previousClose": 181.4,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HIMSTAR",
     "companyName": "Him Star Urja Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 659.9,
-    "previousClose": 655.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 640.0,
+    "previousClose": 659.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HLBSL",
     "companyName": "Himalayan Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
     "currentPrice": 850.0,
-    "previousClose": 863.0,
-    "updatedAt": "2026-08-27"
+    "previousClose": 850.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HLI",
     "companyName": "Himalayan Life Insurance Limited",
     "sector": "Life Insurance",
-    "currentPrice": 300.0,
-    "previousClose": 305.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 287.0,
+    "previousClose": 300.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HLICF",
     "companyName": "HLI Large Cap Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 8.28,
-    "previousClose": 8.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.5,
+    "previousClose": 8.28,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HPPL",
     "companyName": "Himalayan Power Partner Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 369.0,
-    "previousClose": 375.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 358.0,
+    "previousClose": 369.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HRL",
     "companyName": "Himalayan Reinsurance Limited",
     "sector": "Others",
-    "currentPrice": 537.4,
-    "previousClose": 549.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 515.0,
+    "previousClose": 537.4,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "HURJA",
     "companyName": "Himalaya Urja Bikas Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 230.0,
-    "previousClose": 228.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 226.0,
+    "previousClose": 230.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ICFC",
     "companyName": "ICFC Finance Limited",
     "sector": "Finance",
-    "currentPrice": 590.0,
-    "previousClose": 585.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 580.5,
+    "previousClose": 590.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "ICFCD88",
+    "companyName": "9% ICFC Finance Limited Debenture 2088",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1091.1,
+    "previousClose": 1110.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "IGI",
     "companyName": "IGI Prudential insurance Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 392.9,
-    "previousClose": 403.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 374.0,
+    "previousClose": 392.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "IHL",
     "companyName": "Ingwa Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 300.0,
+    "currentPrice": 295.0,
     "previousClose": 300.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ILBS",
     "companyName": "Infinity Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 838.0,
-    "previousClose": 844.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 834.9,
+    "previousClose": 838.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ILI",
     "companyName": "IME Life Insurance Company Limited",
     "sector": "Life Insurance",
-    "currentPrice": 403.2,
-    "previousClose": 405.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 399.0,
+    "previousClose": 403.2,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "JBBD87",
+    "companyName": "Jyoti Bikash Bank Bond 2087",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1133.0,
+    "previousClose": 1100.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "JBBL",
     "companyName": "Jyoti Bikas Bank Limited",
     "sector": "Development Bank Limited",
-    "currentPrice": 331.9,
-    "previousClose": 332.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 325.0,
+    "previousClose": 331.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "JBLB",
     "companyName": "Jeevan Bikas Laghubitta  Bittya Sanstha Ltd",
     "sector": "Microfinance",
-    "currentPrice": 1249.2,
-    "previousClose": 1242.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1239.0,
+    "previousClose": 1249.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "JFL",
     "companyName": "Janaki Finance Company Limited",
     "sector": "Finance",
-    "currentPrice": 384.8,
-    "previousClose": 378.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 372.0,
+    "previousClose": 384.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "JHAPA",
     "companyName": "Jhapa Energy Limited",
     "sector": "Others",
-    "currentPrice": 1013.0,
-    "previousClose": 1001.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1001.3,
+    "previousClose": 1013.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "JOSHI",
     "companyName": "Joshi Hydropower Development Company Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 259.8,
-    "previousClose": 251.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 255.0,
+    "previousClose": 259.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "JSLBB",
     "companyName": "Janautthan Samudayic Laghubitta Bittya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 960.0,
-    "previousClose": 942.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 933.0,
+    "previousClose": 960.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KAHL",
     "companyName": "Kalanga Hydro Limited",
     "sector": "Hydro Power",
-    "currentPrice": 502.5,
-    "previousClose": 490.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 476.0,
+    "previousClose": 502.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KBL",
     "companyName": "Kumari Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 212.0,
-    "previousClose": 212.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 211.0,
+    "previousClose": 212.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "KBLD86",
+    "companyName": "10.25% KBL Debenture 2086",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1110.0,
+    "previousClose": 1112.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KBLD89",
     "companyName": "11% KBL Debenture 2089",
     "sector": "Corporate Debenture",
     "currentPrice": 1250.0,
-    "previousClose": 1235.0,
-    "updatedAt": "2026-08-27"
+    "previousClose": 1250.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KBSH",
     "companyName": "Kutheli Bukhari Small Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 880.0,
-    "previousClose": 897.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 839.0,
+    "previousClose": 880.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KDBY",
     "companyName": "Kumari Dhanabriddhi Yojana",
     "sector": "Mutual Fund",
-    "currentPrice": 9.75,
-    "previousClose": 10.03,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.8,
+    "previousClose": 9.75,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KDL",
     "companyName": "Kalinchowk Darshan Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 731.1,
-    "previousClose": 732.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 715.0,
+    "previousClose": 731.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KEF",
     "companyName": "Kumari Equity Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.68,
-    "previousClose": 9.41,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.5,
+    "previousClose": 9.68,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KHPL",
     "companyName": "Kalinchock Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 760.0,
-    "previousClose": 803.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 741.0,
+    "previousClose": 760.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KKHC",
     "companyName": "Khanikhola Hydropower Co. Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 269.0,
-    "previousClose": 266.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 263.3,
+    "previousClose": 269.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KMCDB",
     "companyName": "Kalika Laghubitta Bittiya Sanstha Ltd",
     "sector": "Microfinance",
-    "currentPrice": 774.6,
-    "previousClose": 778.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 767.0,
+    "previousClose": 774.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KPCL",
     "companyName": "Kalika power Company Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 454.0,
-    "previousClose": 457.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 448.0,
+    "previousClose": 454.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KSBBL",
     "companyName": "Kamana Sewa Bikas Bank Limited",
     "sector": "Development Bank Limited",
     "currentPrice": 474.0,
-    "previousClose": 470.0,
-    "updatedAt": "2026-08-27"
+    "previousClose": 474.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "KSLY",
@@ -1003,329 +1019,337 @@
     "symbol": "KSY",
     "companyName": "Kumari Sabal Yojana",
     "sector": "Mutual Fund",
-    "currentPrice": 8.92,
-    "previousClose": 9.19,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.85,
+    "previousClose": 8.92,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LBBL",
     "companyName": "Lumbini Bikas Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 473.0,
+    "currentPrice": 467.7,
     "previousClose": 473.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
-    "symbol": "LBLD88",
-    "companyName": "8.5% Laxmi Bank Debenture 2088",
+    "symbol": "LBLD86",
+    "companyName": "10% Laxmi Bank Debenture 2086",
     "sector": "Corporate Debenture",
-    "currentPrice": 1122.0,
-    "previousClose": 1122.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1085.0,
+    "previousClose": 1083.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LEC",
     "companyName": "Liberty Energy Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 213.0,
-    "previousClose": 209.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 208.0,
+    "previousClose": 213.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LICN",
     "companyName": "Life Insurance Corporation (Nepal) Limited",
     "sector": "Life Insurance",
-    "currentPrice": 761.5,
-    "previousClose": 764.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 752.1,
+    "previousClose": 761.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LLBS",
     "companyName": "Laxmi Laghubitta Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 882.0,
-    "previousClose": 885.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 860.0,
+    "previousClose": 882.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LSH12",
     "companyName": "LS Horizon 12",
     "sector": "Mutual Fund",
-    "currentPrice": 9.11,
-    "previousClose": 9.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.0,
+    "previousClose": 9.11,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LSL",
     "companyName": "Laxmi Sunrise Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 217.0,
-    "previousClose": 216.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 217.1,
+    "previousClose": 217.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "LUK",
     "companyName": "Laxmi Unnati Kosh",
     "sector": "Mutual Fund",
-    "currentPrice": 9.57,
-    "previousClose": 9.83,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.12,
+    "previousClose": 9.57,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MABEL",
     "companyName": "Mabilung Energy Limited",
     "sector": "Hydro Power",
-    "currentPrice": 567.3,
-    "previousClose": 570.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 553.3,
+    "previousClose": 567.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MAKAR",
     "companyName": "Makar Jitumaya Suri Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 401.0,
-    "previousClose": 426.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 390.2,
+    "previousClose": 401.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MANDU",
     "companyName": "Mandu Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 700.1,
-    "previousClose": 732.4,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 635.0,
+    "previousClose": 700.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MATRI",
     "companyName": "Matribhumi Lagubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 760.0,
-    "previousClose": 754.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 726.0,
+    "previousClose": 760.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MBJC",
     "companyName": "Madhya Bhotekoshi Jalavidyut Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 257.1,
-    "previousClose": 256.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 256.9,
+    "previousClose": 257.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MBL",
     "companyName": "Machhapuchhre Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 248.0,
+    "currentPrice": 245.0,
     "previousClose": 248.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MBLEF",
     "companyName": "MBL Equity Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.51,
-    "previousClose": 9.58,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.5,
+    "previousClose": 9.51,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MCHL",
     "companyName": "Menchhiyam Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 254.0,
-    "previousClose": 261.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 238.8,
+    "previousClose": 254.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MDB",
     "companyName": "Miteri Development Bank Limited",
     "sector": "Development Bank Limited",
-    "currentPrice": 557.0,
-    "previousClose": 562.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 554.0,
+    "previousClose": 557.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MEHL",
     "companyName": "Manakamana Engineering Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 234.6,
-    "previousClose": 229.7,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 234.9,
+    "previousClose": 234.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MEL",
     "companyName": "Modi Energy Limited",
     "sector": "Hydro Power",
-    "currentPrice": 201.9,
-    "previousClose": 201.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 195.0,
+    "previousClose": 201.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MEN",
     "companyName": "Mountain Energy Nepal Limited",
     "sector": "Hydro Power",
-    "currentPrice": 618.0,
-    "previousClose": 615.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 614.4,
+    "previousClose": 618.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MEPDL",
     "companyName": "Mount Everest Power Development Limited",
     "sector": "Hydro Power",
-    "currentPrice": 675.0,
-    "previousClose": 666.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 630.0,
+    "previousClose": 675.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MERO",
     "companyName": "Mero Microfinance Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 616.9,
-    "previousClose": 605.6,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 601.0,
+    "previousClose": 616.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MFIL",
     "companyName": "Manjushree Finance Ltd.",
     "sector": "Finance",
-    "currentPrice": 735.0,
-    "previousClose": 728.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 723.9,
+    "previousClose": 735.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "MFLD85",
+    "companyName": "9.5% Manjushree Finance Limited Debenture 2085",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1105.0,
+    "previousClose": 1105.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MHCL",
     "companyName": "Molung Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 275.0,
-    "previousClose": 282.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 274.0,
+    "previousClose": 275.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MHL",
     "companyName": "Mandakini Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 458.8,
-    "previousClose": 450.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 447.0,
+    "previousClose": 458.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MHNL",
     "companyName": "Mountain Hydro Nepal Limited",
     "sector": "Hydro Power",
-    "currentPrice": 238.8,
-    "previousClose": 237.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 233.9,
+    "previousClose": 238.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MKCL",
     "companyName": "Muktinath Krishi Company Limited",
     "sector": "Others",
-    "currentPrice": 870.0,
-    "previousClose": 885.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 820.0,
+    "previousClose": 870.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MKHC",
     "companyName": "Maya Khola Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 246.9,
-    "previousClose": 247.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 233.0,
+    "previousClose": 246.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MKHL",
     "companyName": "Mai Khola Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 486.5,
-    "previousClose": 489.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 471.6,
+    "previousClose": 486.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MKJC",
     "companyName": "Mailung Khola Jal Vidhyut Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 325.0,
-    "previousClose": 352.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 276.3,
+    "previousClose": 325.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MLBBL",
     "companyName": "Mithila LaghuBitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 943.0,
-    "previousClose": 954.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 915.0,
+    "previousClose": 943.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MLBL",
     "companyName": "Mahalaxmi Bikas Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 347.8,
-    "previousClose": 344.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 340.0,
+    "previousClose": 347.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MLBS",
     "companyName": "Manushi Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1020.0,
-    "previousClose": 1029.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1000.0,
+    "previousClose": 1020.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MLBSL",
     "companyName": "Mahila Lagubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1096.0,
-    "previousClose": 1130.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1050.0,
+    "previousClose": 1096.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MMF1",
     "companyName": "Mega Mutual Fund -1",
     "sector": "Mutual Fund",
-    "currentPrice": 8.7,
-    "previousClose": 9.07,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.96,
+    "previousClose": 8.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MMKJL",
     "companyName": "Mathillo Mailun Khola Jalvidhyut Limited",
     "sector": "Hydro Power",
-    "currentPrice": 345.0,
-    "previousClose": 375.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 322.9,
+    "previousClose": 345.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MNBBL",
     "companyName": "Muktinath Bikas Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 357.0,
+    "currentPrice": 353.0,
     "previousClose": 357.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MNMF1",
     "companyName": "Muktinath Mutual Fund 1",
     "sector": "Mutual Fund",
-    "currentPrice": 9.3,
-    "previousClose": 9.29,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.1,
+    "previousClose": 9.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MPFL",
     "companyName": "Multipurpose Finance Company  Limited",
     "sector": "Finance",
-    "currentPrice": 597.6,
-    "previousClose": 599.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 586.0,
+    "previousClose": 597.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MSHL",
     "companyName": "Mid Solu Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 546.0,
-    "previousClose": 550.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 510.3,
+    "previousClose": 546.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "MSIP",
@@ -1339,33 +1363,33 @@
     "symbol": "MSLB",
     "companyName": "Mahuli Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1214.0,
-    "previousClose": 1224.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1200.0,
+    "previousClose": 1214.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NABBC",
     "companyName": "Narayani Development Bank Limited",
     "sector": "Development Bank Limited",
-    "currentPrice": 751.2,
-    "previousClose": 758.4,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 743.9,
+    "previousClose": 751.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NABIL",
     "companyName": "Nabil Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 540.2,
-    "previousClose": 536.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 535.2,
+    "previousClose": 540.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NABILD2089",
     "companyName": "7% Nabil Debenture 2089",
     "sector": "Corporate Debenture",
-    "currentPrice": 1058.0,
-    "previousClose": 1087.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1100.0,
+    "previousClose": 1058.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NADDF",
@@ -1379,49 +1403,41 @@
     "symbol": "NADEP",
     "companyName": "Nadep Laghubittiya bittya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 714.0,
-    "previousClose": 710.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 704.0,
+    "previousClose": 714.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NBF2",
     "companyName": "NABIL BALANCED FUND-2",
     "sector": "Mutual Fund",
     "currentPrice": 9.72,
-    "previousClose": 9.67,
-    "updatedAt": "2026-08-27"
+    "previousClose": 9.72,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NBF3",
     "companyName": "Nabil Balanced Fund-3",
     "sector": "Mutual Fund",
-    "currentPrice": 9.34,
-    "previousClose": 9.58,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.35,
+    "previousClose": 9.34,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NBL",
     "companyName": "Nepal Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 272.3,
-    "previousClose": 271.7,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "NCCD86",
-    "companyName": "9.5% NCC Debenture 2086",
-    "sector": "Corporate Debenture",
-    "currentPrice": 1118.0,
-    "previousClose": 1105.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 270.0,
+    "previousClose": 272.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NESDO",
     "companyName": "NESDO Sambridha Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1345.0,
-    "previousClose": 1349.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1300.0,
+    "previousClose": 1345.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NFCF",
@@ -1435,33 +1451,33 @@
     "symbol": "NFS",
     "companyName": "Nepal Finance Ltd.",
     "sector": "Finance",
-    "currentPrice": 536.9,
-    "previousClose": 530.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 525.0,
+    "previousClose": 536.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NGPL",
     "companyName": "Ngadi Group Power Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 398.0,
-    "previousClose": 396.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 390.0,
+    "previousClose": 398.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NHDL",
     "companyName": "Nepal Hydro Developers Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 623.0,
-    "previousClose": 628.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 619.5,
+    "previousClose": 623.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NHPC",
     "companyName": "National Hydro Power Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 254.6,
-    "previousClose": 250.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 248.0,
+    "previousClose": 254.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NI31",
@@ -1475,9 +1491,9 @@
     "symbol": "NIBLGF",
     "companyName": "NIBL Growth Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 8.54,
+    "currentPrice": 8.32,
     "previousClose": 8.54,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NIBLSF",
@@ -1491,9 +1507,9 @@
     "symbol": "NIBLSTF",
     "companyName": "NIBL Stable Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 8.41,
+    "currentPrice": 8.18,
     "previousClose": 8.41,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NIBSF2",
@@ -1501,367 +1517,383 @@
     "sector": "Mutual Fund",
     "currentPrice": 8.5,
     "previousClose": 8.5,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICA",
     "companyName": "NIC Asia Bank Ltd.",
     "sector": "Commercial Banks",
-    "currentPrice": 308.1,
-    "previousClose": 308.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 306.0,
+    "previousClose": 308.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICAD2091",
     "companyName": "7% NIC ASIA Debenture 2091",
     "sector": "Corporate Debenture",
-    "currentPrice": 1032.0,
-    "previousClose": 1025.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1094.0,
+    "previousClose": 1032.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICBF",
     "companyName": "NIC Asia Balanced Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.04,
-    "previousClose": 9.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.82,
+    "previousClose": 9.04,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "NICD88",
+    "companyName": "NIC ASIA Rinpatra 2088",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1067.0,
+    "previousClose": 1100.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICFC",
     "companyName": "NIC Asia Flexi CAP Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 8.88,
-    "previousClose": 8.92,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.78,
+    "previousClose": 8.88,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICGF2",
     "companyName": "NIC ASIA Growth Fund-2",
     "sector": "Mutual Fund",
-    "currentPrice": 8.69,
-    "previousClose": 8.74,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.7,
+    "previousClose": 8.69,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICL",
     "companyName": "Nepal Insurance Co. Ltd.",
     "sector": "Non-Life Insurance",
-    "currentPrice": 442.2,
-    "previousClose": 455.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 416.9,
+    "previousClose": 442.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICLBSL",
     "companyName": "NIC ASIA Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 528.0,
-    "previousClose": 527.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 519.0,
+    "previousClose": 528.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NICSF",
     "companyName": "NIC Asia Select Fund 30",
     "sector": "Mutual Fund",
-    "currentPrice": 8.48,
-    "previousClose": 8.36,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.2,
+    "previousClose": 8.48,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NIFRA",
     "companyName": "Nepal Infrastructure Bank Limited",
     "sector": "Investment",
-    "currentPrice": 239.0,
-    "previousClose": 239.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 240.1,
+    "previousClose": 239.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NIL",
     "companyName": "Neco Insurance Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 549.9,
-    "previousClose": 560.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 516.0,
+    "previousClose": 549.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NIMB",
     "companyName": "Nepal Investment Mega Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 185.0,
-    "previousClose": 183.3,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "NIMBPO",
-    "companyName": "Nepal Investment Mega Bank Ltd. Promoter Share",
-    "sector": "Promotor Share",
-    "currentPrice": 141.9,
-    "previousClose": 140.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 182.7,
+    "previousClose": 185.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NLG",
     "companyName": "NLG Insurance Company Ltd.",
     "sector": "Non-Life Insurance",
-    "currentPrice": 516.0,
-    "previousClose": 530.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 483.9,
+    "previousClose": 516.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NLIC",
     "companyName": "Nepal Life Insurance Co. Ltd.",
     "sector": "Life Insurance",
-    "currentPrice": 690.3,
-    "previousClose": 700.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 685.9,
+    "previousClose": 690.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NLICL",
     "companyName": "National Life Insurance Co. Ltd.",
     "sector": "Life Insurance",
-    "currentPrice": 566.9,
-    "previousClose": 560.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 538.4,
+    "previousClose": 566.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMB",
     "companyName": "NMB Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 236.8,
-    "previousClose": 237.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 235.3,
+    "previousClose": 236.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMBHF2",
     "companyName": "NMB Hybrid Fund L- II",
     "sector": "Mutual Fund",
-    "currentPrice": 8.6,
-    "previousClose": 8.84,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.5,
+    "previousClose": 8.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMBMF",
     "companyName": "NMB  Microfinance Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 590.0,
-    "previousClose": 578.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 589.0,
+    "previousClose": 590.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMBUR93/94",
     "companyName": "NMB Energy Bond 4% - 2093/94",
     "sector": "Corporate Debenture",
-    "currentPrice": 990.0,
-    "previousClose": 990.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 981.0,
+    "previousClose": 990.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMFBS",
     "companyName": "National Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1105.2,
-    "previousClose": 1110.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1108.0,
+    "previousClose": 1105.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMIC",
     "companyName": "Nepal Micro Insurance Company Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 821.0,
-    "previousClose": 842.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 790.0,
+    "previousClose": 821.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NMLBBL",
     "companyName": "Nerude Mirmire Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 490.0,
+    "currentPrice": 477.0,
     "previousClose": 490.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NRIC",
     "companyName": "Nepal Reinsurance Company Limited",
     "sector": "Others",
-    "currentPrice": 851.0,
-    "previousClose": 869.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 793.0,
+    "previousClose": 851.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NRM",
     "companyName": "Nepal Republic Media Limited",
     "sector": "Others",
-    "currentPrice": 288.5,
-    "previousClose": 292.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 280.0,
+    "previousClose": 288.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NRN",
     "companyName": "NRN Infrastructure and Development Limited",
     "sector": "Investment",
-    "currentPrice": 1349.5,
-    "previousClose": 1344.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1339.0,
+    "previousClose": 1349.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NSIF2",
     "companyName": "NMB Sulav Investment Fund - 2",
     "sector": "Mutual Fund",
-    "currentPrice": 9.94,
-    "previousClose": 9.95,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.8,
+    "previousClose": 9.94,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NSY",
     "companyName": "Nepal Life Samriddhi Lagani Yojana",
     "sector": "Mutual Fund",
-    "currentPrice": 9.2,
-    "previousClose": 9.29,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.3,
+    "previousClose": 9.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NTC",
     "companyName": "Nepal Doorsanchar Company Limited",
     "sector": "Others",
-    "currentPrice": 875.0,
+    "currentPrice": 870.0,
     "previousClose": 875.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NUBL",
     "companyName": "Nirdhan Utthan Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 574.0,
-    "previousClose": 575.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 571.0,
+    "previousClose": 574.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NWCL",
     "companyName": "Nepal Warehousing Company Limited",
     "sector": "Others",
-    "currentPrice": 603.0,
-    "previousClose": 615.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 581.0,
+    "previousClose": 603.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "NYADI",
     "companyName": "Nyadi Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 350.0,
-    "previousClose": 344.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 343.8,
+    "previousClose": 350.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "OHL",
     "companyName": "Oriental Hotels Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 620.0,
-    "previousClose": 619.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 595.1,
+    "previousClose": 620.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "OMPL",
     "companyName": "Om Megashree Pharmaceuticals Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 872.0,
-    "previousClose": 860.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 855.0,
+    "previousClose": 872.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "PBD88",
+    "companyName": "10% Prime Debenture 2088",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1170.0,
+    "previousClose": 1181.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "PBLD87",
+    "companyName": "8.5% Prabhu Bank Debenture 2087",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1100.0,
+    "previousClose": 1102.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PCBL",
     "companyName": "Prime Commercial Bank Ltd.",
     "sector": "Commercial Banks",
-    "currentPrice": 235.5,
-    "previousClose": 237.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 233.5,
+    "previousClose": 235.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PCIL",
     "companyName": "Palpa Cement Industries Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 621.0,
-    "previousClose": 594.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 646.0,
+    "previousClose": 621.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PHCL",
     "companyName": "Peoples Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 297.6,
-    "previousClose": 300.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 292.0,
+    "previousClose": 297.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PMHPL",
     "companyName": "Panchakanya Mai Hydropower Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 300.0,
-    "previousClose": 304.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 295.0,
+    "previousClose": 300.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PMLI",
     "companyName": "Prabhu Mahalaxmi Life Insurance Limited",
     "sector": "Life Insurance",
-    "currentPrice": 409.9,
-    "previousClose": 404.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 400.1,
+    "previousClose": 409.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PPCL",
     "companyName": "Panchthar Power Compant Limited",
     "sector": "Hydro Power",
-    "currentPrice": 326.9,
-    "previousClose": 327.7,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 325.9,
+    "previousClose": 326.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PPL",
     "companyName": "People's Power Limited",
     "sector": "Hydro Power",
-    "currentPrice": 308.0,
-    "previousClose": 304.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 295.0,
+    "previousClose": 308.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PRIN",
     "companyName": "Prabhu Insurance Ltd.",
     "sector": "Non-Life Insurance",
-    "currentPrice": 599.6,
-    "previousClose": 600.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 573.2,
+    "previousClose": 599.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PROFL",
     "companyName": "Progressive Finance Limited",
     "sector": "Finance",
-    "currentPrice": 384.0,
-    "previousClose": 379.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 375.1,
+    "previousClose": 384.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PRSF",
     "companyName": "Prabhu Smart Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 12.75,
-    "previousClose": 12.6,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 12.7,
+    "previousClose": 12.75,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PRVU",
     "companyName": "Prabhu  Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 178.6,
-    "previousClose": 179.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 175.5,
+    "previousClose": 178.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PSF",
     "companyName": "Prabhu Select Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 12.17,
-    "previousClose": 12.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 11.91,
+    "previousClose": 12.17,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "PSIS",
@@ -1875,353 +1907,337 @@
     "symbol": "PURE",
     "companyName": "Pure Energy Limited",
     "sector": "Others",
-    "currentPrice": 768.0,
-    "previousClose": 759.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 775.0,
+    "previousClose": 768.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RADHI",
     "companyName": "Radhi Bidyut Company Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 685.0,
-    "previousClose": 688.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 674.0,
+    "previousClose": 685.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RAWA",
     "companyName": "Rawa Energy Development Limited",
     "sector": "Hydro Power",
-    "currentPrice": 407.2,
-    "previousClose": 405.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 397.5,
+    "previousClose": 407.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RBBD2088",
     "companyName": "7% RBBL Debenture 2088",
     "sector": "Corporate Debenture",
-    "currentPrice": 1050.0,
-    "previousClose": 1042.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1050.4,
+    "previousClose": 1050.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RBBF40",
     "companyName": "RBB Focus 40",
     "sector": "Mutual Fund",
-    "currentPrice": 9.25,
-    "previousClose": 9.3,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.98,
+    "previousClose": 9.25,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RBCL",
     "companyName": "Rastriya Beema Company Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 13802.0,
-    "previousClose": 13800.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 13388.0,
+    "previousClose": 13802.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RBCLPO",
     "companyName": "Rastriya Beema Company Limited Promoter Share",
     "sector": "Promotor Share",
-    "currentPrice": 11200.0,
-    "previousClose": 11299.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 10900.0,
+    "previousClose": 11200.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RFPL",
     "companyName": "River Falls Power Limited",
     "sector": "Hydro Power",
-    "currentPrice": 330.0,
-    "previousClose": 331.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 322.0,
+    "previousClose": 330.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RHGCL",
     "companyName": "Rapti Hydro And General Construction Limited",
     "sector": "Hydro Power",
-    "currentPrice": 249.0,
-    "previousClose": 248.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 242.0,
+    "previousClose": 249.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RHPL",
     "companyName": "RASUWAGADHI HYDROPOWER COMPANY LIMITED",
     "sector": "Hydro Power",
-    "currentPrice": 188.0,
-    "previousClose": 205.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 165.9,
+    "previousClose": 188.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RIDI",
     "companyName": "Ridi Power Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 345.9,
-    "previousClose": 343.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 339.5,
+    "previousClose": 345.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RLEL",
     "companyName": "Ridge Line Energy Limited",
     "sector": "Hydro Power",
-    "currentPrice": 844.0,
-    "previousClose": 853.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 790.0,
+    "previousClose": 844.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RLFL",
     "companyName": "Reliance Finance Ltd.",
     "sector": "Finance",
-    "currentPrice": 430.0,
-    "previousClose": 427.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 414.9,
+    "previousClose": 430.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RMF1",
     "companyName": "RBB Mutual Fund 1",
     "sector": "Mutual Fund",
     "currentPrice": 9.3,
-    "previousClose": 9.45,
-    "updatedAt": "2026-08-27"
+    "previousClose": 9.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RMF2",
     "companyName": "RBB Mutual Fund 2",
     "sector": "Mutual Fund",
     "currentPrice": 9.76,
-    "previousClose": 9.81,
-    "updatedAt": "2026-08-27"
+    "previousClose": 9.76,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RNLI",
     "companyName": "Reliable Nepal Life Insurance Limited",
     "sector": "Life Insurance",
-    "currentPrice": 415.0,
-    "previousClose": 413.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 408.0,
+    "previousClose": 415.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RSDC",
     "companyName": "RSDC Laghubitta Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 611.2,
-    "previousClose": 613.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 610.0,
+    "previousClose": 611.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RSML",
     "companyName": "Reliance Spinning Mills Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 2728.0,
-    "previousClose": 2706.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 2724.0,
+    "previousClose": 2728.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RSY",
     "companyName": "Reliable Samriddhi Yojana",
     "sector": "Mutual Fund",
-    "currentPrice": 9.44,
-    "previousClose": 9.93,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.61,
+    "previousClose": 9.44,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "RURU",
     "companyName": "Ru Ru Jalbidhyut Pariyojana Limited",
     "sector": "Hydro Power",
-    "currentPrice": 585.0,
-    "previousClose": 586.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 572.1,
+    "previousClose": 585.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SABBL",
     "companyName": "Salapa Bikas Bank Limited",
     "sector": "Development Bank Limited",
-    "currentPrice": 870.0,
+    "currentPrice": 860.0,
     "previousClose": 870.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SADBL",
     "companyName": "Shangrila Development Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 405.0,
-    "previousClose": 404.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 403.7,
+    "previousClose": 405.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAEF2",
     "companyName": "Sanima Equity Fund-2",
     "sector": "Mutual Fund",
-    "currentPrice": 9.05,
+    "currentPrice": 9.0,
     "previousClose": 9.05,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAGAR",
     "companyName": "Sagar Distillery Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 1522.0,
-    "previousClose": 1497.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1476.0,
+    "previousClose": 1522.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAGF",
     "companyName": "Sanima Growth Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.85,
-    "previousClose": 10.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.75,
+    "previousClose": 9.85,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAHAS",
     "companyName": "Sahas Urja Limited",
     "sector": "Hydro Power",
-    "currentPrice": 682.0,
-    "previousClose": 681.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 670.9,
+    "previousClose": 682.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAIL",
     "companyName": "Shreenagar Agritech Industries Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 970.1,
-    "previousClose": 955.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 985.0,
+    "previousClose": 970.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SALICO",
     "companyName": "Sagarmatha Lumbini Insurance Co. Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 553.0,
-    "previousClose": 565.2,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "SALICOPO",
-    "companyName": "Sagarmatha Lumbini Insurance Co. Limited Promoter Share",
-    "sector": "Promotor Share",
-    "currentPrice": 270.0,
-    "previousClose": 270.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 521.6,
+    "previousClose": 553.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SANIMA",
     "companyName": "Sanima Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 369.0,
-    "previousClose": 365.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 359.0,
+    "previousClose": 369.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SANVI",
     "companyName": "Sanvi Energy Limited",
     "sector": "Hydro Power",
-    "currentPrice": 579.0,
-    "previousClose": 564.7,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 560.0,
+    "previousClose": 579.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAPDBL",
     "companyName": "Saptakoshi Development Bank Ltd",
     "sector": "Development Bank Limited",
-    "currentPrice": 720.0,
-    "previousClose": 694.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 705.9,
+    "previousClose": 720.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SAPIL",
     "companyName": "Sarvottam Paints Industries Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 1394.8,
-    "previousClose": 1212.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1276.0,
+    "previousClose": 1394.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SARBTM",
     "companyName": "Sarbottam Cement Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 793.0,
-    "previousClose": 779.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 813.9,
+    "previousClose": 793.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SBCF",
     "companyName": "Sunrise Bluechip Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.27,
-    "previousClose": 9.21,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "SBD89",
-    "companyName": "10.25% Sanima Debenture 2089",
-    "sector": "Corporate Debenture",
-    "currentPrice": 1190.0,
-    "previousClose": 1200.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 8.73,
+    "previousClose": 9.27,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SBI",
     "companyName": "Nepal SBI Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 400.0,
-    "previousClose": 399.0,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "SBID83",
-    "companyName": "10.25% Nepal SBI Bank Debenture 2083",
-    "sector": "Corporate Debenture",
-    "currentPrice": 1060.0,
-    "previousClose": 1060.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 398.7,
+    "previousClose": 400.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SBID89",
     "companyName": "9% Nepal SBI Bank Rinpatra 2089",
     "sector": "Corporate Debenture",
     "currentPrice": 1130.0,
-    "previousClose": 1160.0,
-    "updatedAt": "2026-08-27"
+    "previousClose": 1130.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SBL",
     "companyName": "Siddhartha Bank Limited",
     "sector": "Commercial Banks",
     "currentPrice": 411.0,
-    "previousClose": 408.5,
-    "updatedAt": "2026-08-27"
+    "previousClose": 411.0,
+    "updatedAt": "2026-08-31"
+  },
+  {
+    "symbol": "SBLD83",
+    "companyName": "10.25% SBL Debenture 2083",
+    "sector": "Corporate Debenture",
+    "currentPrice": 1000.0,
+    "previousClose": 1006.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SCB",
     "companyName": "Standard Chartered Bank Limited",
     "sector": "Commercial Banks",
-    "currentPrice": 645.0,
-    "previousClose": 644.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 642.3,
+    "previousClose": 645.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SEF",
     "companyName": "Siddhartha Equity Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.2,
-    "previousClose": 9.49,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.21,
+    "previousClose": 9.2,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SEF2",
     "companyName": "Siddhartha Equity Fund 2",
     "sector": "Mutual Fund",
-    "currentPrice": 9.1,
+    "currentPrice": 9.0,
     "previousClose": 9.1,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SFEF",
     "companyName": "Sunrise Focused Equity Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.65,
-    "previousClose": 9.63,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.85,
+    "previousClose": 9.65,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SFF",
@@ -2232,204 +2248,204 @@
     "updatedAt": "2026-08-24"
   },
   {
+    "symbol": "SFMF",
+    "companyName": "Sunrise First Mutual Fund",
+    "sector": "Mutual Fund",
+    "currentPrice": 9.61,
+    "previousClose": 9.6,
+    "updatedAt": "2026-08-31"
+  },
+  {
     "symbol": "SGHC",
     "companyName": "Swet-Ganga Hydropower & Construction Limited",
     "sector": "Hydro Power",
-    "currentPrice": 290.0,
+    "currentPrice": 285.0,
     "previousClose": 290.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SGHL",
     "companyName": "Sanigad Hydro Limited",
     "sector": "Hydro Power",
-    "currentPrice": 493.8,
-    "previousClose": 492.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 471.2,
+    "previousClose": 493.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SGIC",
     "companyName": "Sanima GIC Insurance Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 400.1,
-    "previousClose": 417.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 378.0,
+    "previousClose": 400.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SHEL",
     "companyName": "Singati Hydro Energy Limited",
     "sector": "Hydro Power",
-    "currentPrice": 292.6,
-    "previousClose": 293.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 289.0,
+    "previousClose": 292.6,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SHINE",
     "companyName": "Shine Resunga Development Bank Ltd.",
     "sector": "Development Bank Limited",
-    "currentPrice": 408.0,
-    "previousClose": 405.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 407.0,
+    "previousClose": 408.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SHIVM",
     "companyName": "SHIVAM CEMENTS LTD",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 650.0,
-    "previousClose": 624.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 664.0,
+    "previousClose": 650.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SHL",
     "companyName": "Soaltee Hotel Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 508.7,
-    "previousClose": 508.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 497.1,
+    "previousClose": 508.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SHLB",
     "companyName": "Shrijanshil Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1323.9,
-    "previousClose": 1350.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1262.5,
+    "previousClose": 1323.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SHPC",
     "companyName": "Sanima Mai Hydropower Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 502.0,
-    "previousClose": 499.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 495.0,
+    "previousClose": 502.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SICL",
     "companyName": "Shikhar Insurance Co. Ltd.",
     "sector": "Non-Life Insurance",
-    "currentPrice": 559.0,
-    "previousClose": 582.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 527.1,
+    "previousClose": 559.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SIFC",
     "companyName": "Shree Investment Finance Co. Ltd.",
     "sector": "Finance",
-    "currentPrice": 485.1,
-    "previousClose": 482.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 482.4,
+    "previousClose": 485.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SIGS2",
     "companyName": "Siddhartha Investment Growth Scheme - 2",
     "sector": "Mutual Fund",
-    "currentPrice": 10.27,
-    "previousClose": 10.36,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.9,
+    "previousClose": 10.27,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SIGS3",
     "companyName": "Siddhartha Investment Growth Scheme 3",
     "sector": "Mutual Fund",
-    "currentPrice": 10.99,
-    "previousClose": 10.85,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.91,
+    "previousClose": 10.99,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SIKLES",
     "companyName": "Sikles Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 565.0,
-    "previousClose": 559.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 553.1,
+    "previousClose": 565.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SINDU",
     "companyName": "Sindhu Bikash Bank Ltd",
     "sector": "Development Bank Limited",
-    "currentPrice": 613.9,
-    "previousClose": 610.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 587.3,
+    "previousClose": 613.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SIPD",
     "companyName": "Shikhar power Development Limited",
     "sector": "Hydro Power",
-    "currentPrice": 596.0,
-    "previousClose": 587.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 581.0,
+    "previousClose": 596.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SJCL",
     "companyName": "SANJEN JALAVIDHYUT COMPANY LIMITED",
     "sector": "Hydro Power",
-    "currentPrice": 227.0,
-    "previousClose": 231.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 231.1,
+    "previousClose": 227.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SJLIC",
     "companyName": "SuryaJyoti Life Insurance Company Limited",
     "sector": "Life Insurance",
-    "currentPrice": 402.8,
-    "previousClose": 400.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 390.2,
+    "previousClose": 402.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SKBBL",
     "companyName": "Sana Kisan Bikas Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 742.5,
-    "previousClose": 740.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 741.6,
+    "previousClose": 742.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SKHEL",
     "companyName": "Suryakunda Hydro Electric Limited",
     "sector": "Hydro Power",
-    "currentPrice": 877.0,
-    "previousClose": 885.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 815.0,
+    "previousClose": 877.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SKHL",
     "companyName": "Super Khudi Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 750.3,
-    "previousClose": 751.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 709.1,
+    "previousClose": 750.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SLBBL",
     "companyName": "Swarojgar Laghubitta Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 790.0,
-    "previousClose": 787.9,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "SLBBLP",
-    "companyName": "Swarojgar Laghubitta Bittiya Sanstha Ltd. Promoter Share",
-    "sector": "Promotor Share",
-    "currentPrice": 443.0,
-    "previousClose": 443.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 779.0,
+    "previousClose": 790.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SLBSL",
     "companyName": "Samudayik Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 877.0,
-    "previousClose": 889.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 882.5,
+    "previousClose": 877.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SLCF",
     "companyName": "Sanima Large Cap Fund",
     "sector": "Mutual Fund",
-    "currentPrice": 9.1,
-    "previousClose": 9.05,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 9.01,
+    "previousClose": 9.1,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SLK",
@@ -2443,161 +2459,153 @@
     "symbol": "SMATA",
     "companyName": "Samata Gharelu Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 695.0,
-    "previousClose": 690.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 675.0,
+    "previousClose": 695.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SMB",
     "companyName": "Support Microfinance Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 1745.0,
-    "previousClose": 1735.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1722.0,
+    "previousClose": 1745.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SMFBS",
     "companyName": "Swabhimaan Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1369.0,
-    "previousClose": 1430.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1319.0,
+    "previousClose": 1369.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SMH",
     "companyName": "Super Mai Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 500.0,
-    "previousClose": 497.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 490.0,
+    "previousClose": 500.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SMHL",
     "companyName": "Super Madi Hydropower Limited",
     "sector": "Hydro Power",
     "currentPrice": 525.0,
-    "previousClose": 518.0,
-    "updatedAt": "2026-08-27"
+    "previousClose": 525.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SMJC",
     "companyName": "Sagarmatha Jalabidhyut Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 419.0,
-    "previousClose": 419.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 400.0,
+    "previousClose": 419.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SMPDA",
     "companyName": "Sampada Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 740.0,
-    "previousClose": 733.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 729.0,
+    "previousClose": 740.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SNLI",
     "companyName": "Sun Nepal Life Insurance Company Limited",
     "sector": "Life Insurance",
-    "currentPrice": 390.0,
-    "previousClose": 379.8,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 387.6,
+    "previousClose": 390.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SNORL",
     "companyName": "Snow Rivers Limited",
     "sector": "Hydro Power",
-    "currentPrice": 866.0,
-    "previousClose": 889.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 850.1,
+    "previousClose": 866.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SOHL",
     "companyName": "Solu Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 660.0,
-    "previousClose": 663.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 648.0,
+    "previousClose": 660.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SONA",
     "companyName": "Sonapur Minerals And Oil Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 408.0,
-    "previousClose": 388.4,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 416.9,
+    "previousClose": 408.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SOPL",
     "companyName": "Sopan Pharmaceuticals Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 758.0,
-    "previousClose": 729.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 736.0,
+    "previousClose": 758.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SPC",
     "companyName": "Samling Power Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 397.0,
-    "previousClose": 399.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 382.0,
+    "previousClose": 397.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SPDL",
     "companyName": "Synergy Power Development Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 353.0,
-    "previousClose": 352.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 349.7,
+    "previousClose": 353.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SPHL",
     "companyName": "Sayapatri Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 523.0,
-    "previousClose": 522.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 540.0,
+    "previousClose": 523.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SPIL",
     "companyName": "Siddhartha Premier Insurance Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 625.0,
-    "previousClose": 640.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 588.0,
+    "previousClose": 625.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SPL",
     "companyName": "Shuvam Power Limited",
     "sector": "Hydro Power",
-    "currentPrice": 640.9,
-    "previousClose": 648.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 619.9,
+    "previousClose": 640.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SRLI",
     "companyName": "Sanima Reliance Life Insurance Limited",
     "sector": "Life Insurance",
-    "currentPrice": 357.3,
-    "previousClose": 357.0,
-    "updatedAt": "2026-08-27"
-  },
-  {
-    "symbol": "SRLIP",
-    "companyName": "Sanima Reliance Life Insurance Limited Promoter Share",
-    "sector": "Promotor Share",
-    "currentPrice": 197.6,
-    "previousClose": 197.6,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 354.7,
+    "previousClose": 357.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SSHL",
     "companyName": "Shiva Shree Hydropower Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 194.0,
-    "previousClose": 193.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 188.0,
+    "previousClose": 194.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SSIS",
@@ -2611,240 +2619,240 @@
     "symbol": "STC",
     "companyName": "Salt Trading Corporation",
     "sector": "Tradings",
-    "currentPrice": 5170.0,
-    "previousClose": 5168.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 5168.0,
+    "previousClose": 5170.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SWASTIK",
     "companyName": "Swastik Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1904.0,
-    "previousClose": 1940.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1859.9,
+    "previousClose": 1904.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SWBBL",
     "companyName": "Swabalamban Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 668.0,
-    "previousClose": 667.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 663.9,
+    "previousClose": 668.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SWMF",
     "companyName": "Suryodaya Womi Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 587.0,
-    "previousClose": 588.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 580.0,
+    "previousClose": 587.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "SYPNL",
     "companyName": "SY Panel Nepal Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 1244.3,
-    "previousClose": 1220.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1293.0,
+    "previousClose": 1244.3,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TAMOR",
     "companyName": "Sanima Middle Tamor Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 482.0,
-    "previousClose": 480.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 480.0,
+    "previousClose": 482.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TPC",
     "companyName": "Terhathum Power Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 350.0,
-    "previousClose": 346.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 344.0,
+    "previousClose": 350.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TPKHL",
     "companyName": "Taksar Pikhuwa Khola Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 509.0,
-    "previousClose": 500.1,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 488.0,
+    "previousClose": 509.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TRH",
     "companyName": "Taragaon Regency Hotel Limited",
     "sector": "Hotels And Tourism",
-    "currentPrice": 818.0,
-    "previousClose": 803.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 790.0,
+    "previousClose": 818.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TSHL",
     "companyName": "Three Star Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 338.0,
-    "previousClose": 335.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 325.0,
+    "previousClose": 338.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TTL",
     "companyName": "Trade Tower Limited",
     "sector": "Others",
-    "currentPrice": 690.0,
-    "previousClose": 688.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 670.2,
+    "previousClose": 690.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "TVCL",
     "companyName": "Trishuli Jal Vidhyut Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 354.0,
-    "previousClose": 390.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 344.0,
+    "previousClose": 354.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UAIL",
     "companyName": "United Ajod Insurance Limited",
     "sector": "Non-Life Insurance",
-    "currentPrice": 388.8,
-    "previousClose": 397.2,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 371.3,
+    "previousClose": 388.8,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UHEWA",
     "companyName": "Upper Hewakhola Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 604.0,
-    "previousClose": 667.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 590.0,
+    "previousClose": 604.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ULBSL",
     "companyName": "Upakar Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 2408.0,
-    "previousClose": 2442.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 2725.0,
+    "previousClose": 2408.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "ULHC",
     "companyName": "Upper Lohore Khola Hydropower Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 301.0,
-    "previousClose": 306.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 287.1,
+    "previousClose": 301.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UMHL",
     "companyName": "United Modi Hydropower Ltd.",
     "sector": "Hydro Power",
-    "currentPrice": 559.9,
-    "previousClose": 563.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 558.0,
+    "previousClose": 559.9,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UMRH",
     "companyName": "United IDI Mardi RB Hydropower Limited.",
     "sector": "Hydro Power",
-    "currentPrice": 519.7,
-    "previousClose": 515.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 514.9,
+    "previousClose": 519.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UNHPL",
     "companyName": "Union Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 358.0,
-    "previousClose": 355.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 349.8,
+    "previousClose": 358.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UNL",
     "companyName": "Unilever Nepal Limited",
     "sector": "Manufacturing And Processing",
-    "currentPrice": 47200.0,
+    "currentPrice": 46200.0,
     "previousClose": 47200.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UNLB",
     "companyName": "Unique Nepal Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1240.0,
-    "previousClose": 1242.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1233.9,
+    "previousClose": 1240.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UPCL",
     "companyName": "UNIVERSAL POWER COMPANY LTD",
     "sector": "Hydro Power",
-    "currentPrice": 333.0,
-    "previousClose": 331.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 324.0,
+    "previousClose": 333.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "UPPER",
     "companyName": "Upper Tamakoshi Hydropower Ltd",
     "sector": "Hydro Power",
-    "currentPrice": 184.0,
-    "previousClose": 184.5,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 181.2,
+    "previousClose": 184.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "USHEC",
     "companyName": "Upper Solu Hydro Electric Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 496.0,
-    "previousClose": 492.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 481.3,
+    "previousClose": 496.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "USHL",
     "companyName": "Upper Syange Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 533.7,
-    "previousClose": 525.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 520.0,
+    "previousClose": 533.7,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "USLB",
     "companyName": "Unnati Sahakarya Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 970.0,
+    "currentPrice": 951.0,
     "previousClose": 970.0,
-    "updatedAt": "2026-08-27"
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "VLBS",
     "companyName": "Vijaya laghubitta Bittiya Sanstha Ltd.",
     "sector": "Microfinance",
-    "currentPrice": 620.0,
-    "previousClose": 627.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 607.9,
+    "previousClose": 620.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "VLUCL",
     "companyName": "Vision Lumbini Urja Company Limited",
     "sector": "Hydro Power",
-    "currentPrice": 383.5,
-    "previousClose": 374.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 368.0,
+    "previousClose": 383.5,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "WNLB",
     "companyName": "Wean Nepal Laghubitta Bittiya Sanstha Limited",
     "sector": "Microfinance",
-    "currentPrice": 1110.0,
-    "previousClose": 1126.0,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 1012.0,
+    "previousClose": 1110.0,
+    "updatedAt": "2026-08-31"
   },
   {
     "symbol": "YMHL",
     "companyName": "Yambaling Hydropower Limited",
     "sector": "Hydro Power",
-    "currentPrice": 593.9,
-    "previousClose": 589.9,
-    "updatedAt": "2026-08-27"
+    "currentPrice": 571.0,
+    "previousClose": 593.9,
+    "updatedAt": "2026-08-31"
   }
 ]
