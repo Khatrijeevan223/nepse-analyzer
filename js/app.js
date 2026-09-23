@@ -33,6 +33,7 @@ const gainersTableBody = document.querySelector(".daily-gainers tbody");
 const totalCompanies = document.querySelector(".totalcompanies");
 const indexChart = document.querySelector(".index-chart");
 const chartPeriod = document.querySelector(".chart-period");
+const lastUpdated = document.querySelector(".last-updated");
 
 function applyFilters() {
     const searchTerm = searchInput.value.toLowerCase();
@@ -238,6 +239,17 @@ fetch("data/generated-stocks.json")
 
     .then(function (stocks) {
         allStocks = stocks;
+        if (allStocks.length > 0 &&
+            allStocks[0].updatedAt
+        ) {
+            const updateDate = allStocks[0].updatedAt;
+            lastUpdated.textContent =
+                "Updated: " + formatChartDate(updateDate);
+        }
+        else
+        {
+            lastUpdated.textContent = "Updated: unavailable";
+        }
         displayStocks(allStocks);
         displayGainers(allStocks);
         displayLosers(allStocks);
@@ -248,6 +260,7 @@ fetch("data/generated-stocks.json")
     .catch(function (error) {
         console.error(error);
         stockGrid.textContent = "Stock data is temporarily unavailable.";
+        lastUpdated.textContent = "Updated: unavailable";
     });
 
 
@@ -301,9 +314,9 @@ function displayMarketChart(marketHistory) {
         " at " +
         lastDay.indexValue
     );
-     chartPeriod.textContent =
-    	"NEPSE Index - Last " +
-        marketHistory.length + 
+    chartPeriod.textContent =
+        "NEPSE Index - Last " +
+        marketHistory.length +
         " Trading Days";
 
     marketHistory.forEach(function (day) {
