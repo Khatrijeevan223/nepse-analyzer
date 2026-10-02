@@ -303,6 +303,68 @@ body.dark-mode footer {
     white-space: nowrap;
 }
 
+.watchlist
+{
+    grid-column: 1/-1;
+    grid-row: 5;
+    border-top: 4px solid #7c3aed;
+}
+.watchlist-grid
+{
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+.watchlist-card
+{
+    padding: 16px;
+    border: 1px solid #d8b4fe;
+    border-radius: 8px;
+    background-color: #faf5ff;
+}
+.watchlist-card h3
+{
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.watchlist-card p
+{
+    margin: 0 0 12px;
+}
+.watchlist-button,
+.remove-watchlist{
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font: inherit;
+}
+.watchlist-button
+{
+    margin-top: 12px;
+    background-color: #2563eb;
+}
+.remove-watchlist
+{
+    background-color: #dc2626;
+}
+
+.watchlist-button:disabled
+{
+    background-color: #64748b;
+    cursor: not-allowed;
+    opacity: 0.75;
+}
+
+body.dark-mode .watchlist-card
+{
+    background-color: #334155;
+    border-color: #7c3aed;
+    color: #f1f5f9;
+}
+
 footer p {
     margin: 0;
 }
@@ -319,7 +381,8 @@ footer p {
     .daily-gainers,
     .daily-losers,
     .stock-list,
-    .market-chart {
+    .market-chart,
+    .watchlist{
         grid-column: 1;
         grid-row: auto;
     }

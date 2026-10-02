@@ -34,6 +34,8 @@ const totalCompanies = document.querySelector(".totalcompanies");
 const indexChart = document.querySelector(".index-chart");
 const chartPeriod = document.querySelector(".chart-period");
 const lastUpdated = document.querySelector(".last-updated");
+const watchlistGrid = document.querySelector(".watchlist-grid");
+const watchlistEmpty = document.querySelector(".watchlist-empty");
 
 function applyFilters() {
     const searchTerm = searchInput.value.toLowerCase();
@@ -212,11 +214,31 @@ function displayStocks(stocks) {
         const percentageChange = calculatePercentageChange(stock);
         change.textContent = "Change: " + formattedChange + " (" + percentageChange.toFixed(2) + "%)";
 
+        const watchlistButton =
+            document.createElement("button");
+
+        watchlistButton.type = "button";
+        watchlistButton.classList.add("watchlist-button");
+        watchlistButton.dataset.symbol = stock.symbol;
+        watchlistButton.textContent = "Add to Watchlist";
+        watchlistButton.addEventListener(
+            "click",
+            function () {
+                const symbol =
+                    watchlistButton.dataset.symbol;
+                if (!watchlistSymbols.includes(symbol)) {
+                    watchlistSymbols.push(symbol);
+                    saveWatchlist();
+                    displayWatchedlist();
+                }
+            }
+        )
 
         card.appendChild(symbol);
         card.appendChild(companyName);
         card.appendChild(price);
         card.appendChild(change);
+        card.appendChild(watchlistButton);
         stockGrid.appendChild(card);
 
     });
@@ -224,10 +246,129 @@ function displayStocks(stocks) {
         stockGrid.textContent = "No matching stocks found.";
         return;
     }
+    updateWatchlistButtons();
 }
 
+let watchlistSymbols = [];
 let allStocks = [];
 
+const savedWatchlist =
+    localStorage.getItem("watchlist");
+
+if (savedWatchlist !== null) {
+    try {
+        const parsedWatchlist =
+            JSON.parse(savedWatchlist);
+
+        if (Array.isArray(parsedWatchlist)) {
+            watchlistSymbols = parsedWatchlist;
+        }
+        else {
+            localStorage.removeItem("watchlist");
+        }
+    }
+    catch (error) {
+        console.error(
+            "Saved watchlist could not be read.",
+            error
+        );
+
+        localStorage.removeItem("watchlist");
+    }
+}
+
+
+function saveWatchlist() {
+    const watchlistText =
+        JSON.stringify(watchlistSymbols);
+
+    localStorage.setItem(
+        "watchlist",
+        watchlistText
+    )
+}
+
+function updateWatchlistButtons() {
+    const buttons =
+        document.querySelectorAll(".watchlist-button");
+
+    buttons.forEach(function (button) {
+        const isWatched =
+            watchlistSymbols.includes(
+                button.dataset.symbol
+            );
+
+        button.disabled = isWatched;
+
+        if (isWatched) {
+            button.textContent = "Added";
+        }
+        else {
+            button.textContent = "Add to Watchlist";
+        }
+    });
+}
+function getWatchedStocks() {
+    return allStocks.filter(function (stock) {
+        return watchlistSymbols.includes(
+            stock.symbol
+        );
+    });
+}
+
+function displayWatchedlist() {
+    const watchedStocks = getWatchedStocks();
+
+    watchlistGrid.innerHTML = "";
+    if (watchedStocks.length === 0) {
+        watchlistEmpty.hidden = false;
+        return;
+    }
+    watchlistEmpty.hidden = true;
+
+
+    watchedStocks.forEach(function (stock) {
+        const card = document.createElement("article");
+        card.classList.add("watchlist-card");
+
+        const symbol = document.createElement("h3");
+        symbol.textContent = stock.symbol;
+
+        const price = document.createElement("p");
+        price.textContent = "NPR " + stock.currentPrice;
+
+        const removeButton = document.createElement("button");
+
+        removeButton.type = "button";
+        removeButton.classList.add("remove-watchlist")
+        removeButton.dataset.symbol = stock.symbol;
+        removeButton.textContent = "Remove";
+        removeButton.addEventListener(
+            "click",
+            function () {
+                const symbolToRemove
+                    = removeButton.dataset.symbol;
+
+                watchlistSymbols =
+                    watchlistSymbols.filter(
+                        function (symbol) {
+                            return symbol !== symbolToRemove;
+                        }
+                    );
+                saveWatchlist();
+                displayWatchedlist();
+                updateWatchlistButtons();
+            }
+        );
+
+        card.appendChild(symbol);
+        card.appendChild(price);
+        card.appendChild(removeButton);
+        watchlistGrid.appendChild(card);
+    })
+
+
+}
 fetch("data/generated-stocks.json")
     .then(function (response) {
         if (!response.ok) {
@@ -246,13 +387,14 @@ fetch("data/generated-stocks.json")
             lastUpdated.textContent =
                 "Updated: " + formatChartDate(updateDate);
         }
-        else
-        {
+        else {
             lastUpdated.textContent = "Updated: unavailable";
         }
         displayStocks(allStocks);
         displayGainers(allStocks);
         displayLosers(allStocks);
+        displayWatchedlist();
+        updateWatchlistButtons();
 
         totalCompanies.textContent = allStocks.length;
     })
