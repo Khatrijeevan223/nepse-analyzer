@@ -233,7 +233,7 @@ footer {
     height: 80%;
 }
 
-.chart-column > span {
+.chart-column>span {
     margin-top: 8px;
 }
 
@@ -241,24 +241,22 @@ footer {
 Dark Mode
 */
 
-body.dark-mode
-{
+body.dark-mode {
     background-color: #0f172a;
     color: #e2e8f0
 }
-body.dark-mode section 
-{
-    background-color:  #1e293b;
+
+body.dark-mode section {
+    background-color: #1e293b;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
 }
-body.dark-mode th
-{
+
+body.dark-mode th {
     color: #cbd5e1;
 }
 
 body.dark-mode th,
-body.dark-mode select 
-{
+body.dark-mode select {
     border-color: #475569;
     background-color: #0f172a;
     color: #e2e8f0
@@ -277,6 +275,7 @@ body.dark-mode footer {
     color: #2563eb;
     margin-top: 0.5rem;
 }
+
 .stock-change.positive {
     color: green;
 }
@@ -303,37 +302,37 @@ body.dark-mode footer {
     white-space: nowrap;
 }
 
-.watchlist
-{
+.watchlist {
     grid-column: 1/-1;
     grid-row: 5;
     border-top: 4px solid #7c3aed;
 }
-.watchlist-grid
-{
+
+.watchlist-grid {
     display: grid;
     grid-template-columns:
         repeat(auto-fit, minmax(180px, 1fr));
     gap: 16px;
 }
-.watchlist-card
-{
+
+.watchlist-card {
     padding: 16px;
     border: 1px solid #d8b4fe;
     border-radius: 8px;
     background-color: #faf5ff;
 }
-.watchlist-card h3
-{
+
+.watchlist-card h3 {
     margin-top: 0;
     margin-bottom: 8px;
 }
-.watchlist-card p
-{
+
+.watchlist-card p {
     margin: 0 0 12px;
 }
+
 .watchlist-button,
-.remove-watchlist{
+.remove-watchlist {
     padding: 8px 12px;
     border: none;
     border-radius: 6px;
@@ -341,28 +340,144 @@ body.dark-mode footer {
     cursor: pointer;
     font: inherit;
 }
-.watchlist-button
-{
+
+.watchlist-button {
     margin-top: 12px;
     background-color: #2563eb;
 }
-.remove-watchlist
-{
+
+.remove-watchlist {
     background-color: #dc2626;
 }
 
-.watchlist-button:disabled
-{
+.watchlist-button:disabled {
     background-color: #64748b;
     cursor: not-allowed;
     opacity: 0.75;
 }
 
-body.dark-mode .watchlist-card
-{
+body.dark-mode .watchlist-card {
     background-color: #334155;
     border-color: #7c3aed;
     color: #f1f5f9;
+}
+
+.portfolio {
+    grid-column: 1/ -1;
+    grid-row: 6;
+    border-top: 4px solid #0f766e;
+
+}
+
+.portfolio-form {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(150px, 1fr));
+    gap: 12px;
+    align-items: end;
+}
+
+.portfolio-form label {
+    font-weight: 700;
+}
+
+.portfolio-form input,
+.portfolio-form select,
+.portfolio-form button {
+    padding: 10px;
+    border-radius: 6px;
+    font: inherit;
+}
+
+.portfolio-form input,
+.portfolio-form select {
+    border: 1px solid #cbd5e1;
+}
+
+.portfolio-form button {
+    border: none;
+    background-color: #0f766e;
+    color: white;
+    cursor: pointer;
+}
+
+.portfolio-field {
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+    gap: 6px;
+}
+
+.positive-return {
+    color: #15803d;
+    font-weight: 700;
+}
+
+.negative-return {
+    color: #b91c1c;
+    font-weight: 700;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns:
+        repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.portfolio-card {
+    padding: 16px;
+    border: 1px solid #99f6e4;
+    border-radius: 8px;
+    background-color: #f0fdfa;
+}
+
+.portfolio-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.remove-holding {
+    margin-top: 12px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    background-color: #dc2626;
+    color: white;
+    cursor: pointer;
+}
+
+body.dark-mode .portfolio-card {
+    border-color: #0f766e;
+    background-color: #334155;
+    color: #f1f5f9;
+}
+
+.portfolio-totals {
+    display: grid;
+    grid-template-columns:
+        repeat(3, minmax(150px, 1fr));
+    gap: 12px;
+    margin-top: 20px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #ecfeff;
+}
+
+.portfolio-totals p {
+    margin: 0;
+    font-weight: 700;
+}
+
+.portfolio-totals span {
+    display: block;
+    margin-top: 4px;
+    font-size: 1.1rem;
+}
+
+body.dark-mode .portfolio-totals {
+    background-color: #1e3a4a;
 }
 
 footer p {
@@ -382,7 +497,8 @@ footer p {
     .daily-losers,
     .stock-list,
     .market-chart,
-    .watchlist{
+    .watchlist,
+    .portfolio {
         grid-column: 1;
         grid-row: auto;
     }
@@ -398,23 +514,25 @@ footer p {
         gap: 8px;
     }
 
-    .index-chart 
-    {
-        gap:6px;
+    .index-chart {
+        gap: 6px;
         height: 190px;
         padding-top: 2rem;
     }
 
-    .chart-value
-    {
+    .chart-value {
         font-size: 0.62rem;
     }
 
-    .chart-column > span 
-    {
-          font-size: 0.7rem;
+    .chart-column>span {
+        font-size: 0.7rem;
     }
-    
-    
-}
 
+    .portfolio-form {
+        grid-template-columns: 1fr;
+    }
+
+    .portfolio-totals {
+        grid-template-columns: 1fr;
+    }
+}

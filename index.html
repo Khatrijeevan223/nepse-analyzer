@@ -221,6 +221,58 @@
             </p>
             <div class="watchlist-grid"></div>
         </section>
+        <section class="portfolio" aria-labelledby="portlolio-title">
+            <h2 id="portfolio-title">My Portfolio</h2>
+            <p>
+                Record the stocks you own and monitor their current value.
+            </p>
+            <form class="portfolio-form">
+                <div class="portfolio-field">
+                    <label for="portfolio-symbol">
+                        Stock
+                    </label>
+                    <select id="portfolio-symbol" required>
+                        <option value="">Select a stock</option>
+                    </select>
+                </div>
+                <div class="portfolio-field">
+                    <label for="portfolio-quantity">Quantity</label>
+                    <input id="portfolio-quantity" type="number" min="1" step="1" required>
+                </div>
+                <div class="portfolio-field">
+                    <label for="portfolio-price">
+                        Purchase Price
+                    </label>
+                    <input id="portfolio-price" type="number" min="0.01" step="0.01" required>
+                </div>
+                <div>
+                <button type="submit">
+                    Add Holding
+                </button>
+                </div>
+            </form>
+            <p class="portfolio-empty">
+                No holdings have been addded to your portfolio.
+            </p>
+            <div class="portfolio-grid"></div>.portfolio-totals
+{
+    grid-template-columns: 1fr;
+}
+            <div class="portfolio-totals">
+                <p>
+                    Total invested:
+                    <span id="total-invested">NPR 0.00</span>
+                </p>
+                <p>
+                    Current value:
+                    <span id ="total-current-value">NPR 0.00</span>
+                </p>
+                <p>
+                    Total gain/loss:
+                    <span id="total-gain-loss">NPR 0.00</span>
+                </p>
+            </div>
+        </section>
     </main>
     <footer>
         <p>Data is provided for educational and informational purposes only. This is not investment advice.</p>

@@ -36,6 +36,16 @@ const chartPeriod = document.querySelector(".chart-period");
 const lastUpdated = document.querySelector(".last-updated");
 const watchlistGrid = document.querySelector(".watchlist-grid");
 const watchlistEmpty = document.querySelector(".watchlist-empty");
+const portfolioSymbol = document.querySelector("#portfolio-symbol");
+const portfolioForm = document.querySelector(".portfolio-form");
+const portfolioQuantity = document.querySelector("#portfolio-quantity");
+const portfolioPrice = document.querySelector('#portfolio-price');
+const portfolioGrid = document.querySelector(".portfolio-grid");
+const portfolioEmpty = document.querySelector(".portfolio-empty");
+const totalInvestedElement = document.querySelector("#total-invested");
+const totalCurrentValueElement = document.querySelector("#total-current-value");
+const totalGainLossElement = document.querySelector("#total-gain-loss");
+
 
 function applyFilters() {
     const searchTerm = searchInput.value.toLowerCase();
@@ -251,6 +261,7 @@ function displayStocks(stocks) {
 
 let watchlistSymbols = [];
 let allStocks = [];
+let portfolioHoldings = [];
 
 const savedWatchlist =
     localStorage.getItem("watchlist");
@@ -288,6 +299,233 @@ function saveWatchlist() {
     )
 }
 
+function savePortfolio() {
+    const portfolioText =
+        JSON.stringify(portfolioHoldings);
+
+    localStorage.setItem(
+        "portfolio",
+        portfolioText
+    );
+}
+
+function displayPortfolio() {
+    portfolioGrid.innerHTML = "";
+    updatePortfolioTotals();
+    if (portfolioHoldings.length === 0) {
+        portfolioEmpty.hidden = false;
+        return;
+    }
+
+    portfolioEmpty.hidden = true;
+
+    portfolioHoldings.forEach(function (holding, holdingIndex) {
+        const marketStock =
+            allStocks.find(function (stock) {
+                return stock.symbol === holding.symbol;
+            });
+
+        const card =
+            document.createElement("article");
+
+        card.classList.add("portfolio-card");
+
+        const symbol =
+            document.createElement("h3");
+        symbol.textContent = holding.symbol;
+
+        const quantity =
+            document.createElement("p");
+        quantity.textContent =
+            "Quantity: " + holding.quantity;
+
+        const purchasePrice =
+            document.createElement("p");
+
+        purchasePrice.textContent =
+            "Purchase price: NPR " + holding.purchasePrice.toFixed(2);
+
+        const investedAmount =
+            holding.quantity * holding.purchasePrice;
+
+        const investedAmountText =
+            document.createElement("p");
+        investedAmountText.textContent =
+            "Invested amount: NPR " +
+            investedAmount.toFixed(2);
+
+        const currentPriceText =
+            document.createElement("p");
+        const currentValueText =
+            document.createElement("p");
+
+        const gainLossText =
+            document.createElement("p");
+        const returnText =
+            document.createElement("p");
+        // Remove Button
+        const removeButton =
+            document.createElement("button");
+
+
+        removeButton.type = "button";
+        removeButton.classList.add("remove-holding");
+        removeButton.textContent = "Remove";
+
+        removeButton.addEventListener(
+            "click",
+            function () {
+                portfolioHoldings.splice
+                    (
+                        holdingIndex,
+                        1
+                    );
+                savePortfolio();
+                displayPortfolio();
+
+            }
+        );
+
+
+        if (marketStock) {
+            currentPriceText.textContent =
+                "Current Price: NPR " +
+                marketStock.currentPrice.toFixed(2);
+
+            const currentValue =
+                holding.quantity *
+                marketStock.currentPrice;
+
+            currentValueText.textContent =
+                "Current value: NPR " +
+                currentValue.toFixed(2);
+
+            const gainLoss =
+                currentValue - investedAmount;
+
+            gainLossText.textContent =
+                "Unrealized gain/loss: NPR " +
+                gainLoss.toFixed(2);
+
+            const returnPercentage =
+                (gainLoss / investedAmount) * 100;
+            returnText.textContent =
+                "Return: " +
+                returnPercentage.toFixed(2) +
+                "%";
+            if (gainLoss >= 0) {
+                gainLossText.classList.add("positive-return");
+                returnText.classList.add("positive-return");
+            }
+            else {
+                gainLossText.classList.add("negative-return");
+                returnText.classList.add("negative-return");
+            }
+        }
+
+        else {
+            currentPriceText.textContent =
+                "Current price: unavailable";
+
+            currentValueText.textContent =
+                "Current value: unavailable";
+
+            gainLossText.textContent =
+                "Unrealized gain/loss: unavailable";
+            returnText.textContent =
+                "Return: unavailable";
+
+        }
+
+        card.appendChild(symbol);
+        card.appendChild(quantity);
+        card.appendChild(purchasePrice);
+        card.appendChild(investedAmountText);
+        card.appendChild(currentPriceText);
+        card.appendChild(currentValueText);
+        card.appendChild(gainLossText);
+        card.appendChild(returnText);
+        card.appendChild(removeButton);
+        portfolioGrid.appendChild(card);
+    });
+}
+
+function updatePortfolioTotals() {
+    let totalInvested = 0;
+    let totalCurrentValue = 0;
+
+    portfolioHoldings.forEach(function (holding) {
+        totalInvested +=
+            holding.quantity * holding.purchasePrice;
+
+    const marketStock =
+        allStocks.find(function (stock) {
+             return stock.symbol === holding.symbol;
+        });
+
+    if (marketStock) {
+        totalCurrentValue += holding.quantity * marketStock.currentPrice;
+    }
+    });
+
+    const totalGainLoss =
+        totalCurrentValue - totalInvested;
+    totalGainLossElement.textContent =
+        "NPR " + totalGainLoss.toFixed(2);
+    totalInvestedElement.textContent =
+        "NPR " + totalInvested.toFixed(2);
+    totalCurrentValueElement.textContent =
+        "NPR " + totalCurrentValue.toFixed(2);
+    // Gain and loss Calculator
+
+    totalGainLossElement.classList.remove(
+        "positive-return",
+        "negative-return"
+    );
+
+    if (totalGainLoss >= 0)
+    {
+        totalGainLossElement.classList.add(
+            "positive-return"
+        );
+    }
+    else
+    {
+        totalGainLossElement.classList.add(
+            "negative-return"
+        );
+    }
+
+
+}
+
+
+
+const savedPortfolio =
+    localStorage.getItem("portfolio");
+
+
+if (savedPortfolio !== null) {
+    try {
+        const parsedPortfolio =
+            JSON.parse(savedPortfolio);
+
+        if (Array.isArray(parsedPortfolio)) {
+            portfolioHoldings = parsedPortfolio;
+        }
+        else {
+            localStorage.removeItem("portfolio");
+        }
+
+    }
+
+    catch (error) {
+        console.error("Saved portfolio could not be read.",
+            error
+        );
+        localStorage.removeItem("portfolio");
+    }
+}
 function updateWatchlistButtons() {
     const buttons =
         document.querySelectorAll(".watchlist-button");
@@ -366,9 +604,51 @@ function displayWatchedlist() {
         card.appendChild(removeButton);
         watchlistGrid.appendChild(card);
     })
-
-
 }
+
+function populatePortfolioOptions(stocks) {
+    stocks.forEach(function (stock) {
+        const option =
+            document.createElement("option");
+
+        option.value = stock.symbol;
+        option.textContent =
+            stock.symbol + " - " + stock.companyName;
+
+        portfolioSymbol.appendChild(option);
+    });
+}
+
+portfolioForm.addEventListener(
+    "submit",
+    function (event) {
+        event.preventDefault();
+        const holdingAlreadyExists =
+            portfolioHoldings.some(function (holding)
+        {
+            return holding.symbol === portfolioSymbol.value;
+        })
+        if (holdingAlreadyExists)
+        {
+            alert(
+                "This stock is already in your portfolio."
+            );
+            return;
+        }
+        const holding =
+        {
+            symbol: portfolioSymbol.value,
+            quantity: Number(portfolioQuantity.value),
+            purchasePrice: Number(portfolioPrice.value)
+        };
+
+        portfolioHoldings.push(holding);
+        savePortfolio();
+        displayPortfolio();
+        portfolioForm.reset();
+
+    }
+);
 fetch("data/generated-stocks.json")
     .then(function (response) {
         if (!response.ok) {
@@ -380,6 +660,9 @@ fetch("data/generated-stocks.json")
 
     .then(function (stocks) {
         allStocks = stocks;
+
+
+
         if (allStocks.length > 0 &&
             allStocks[0].updatedAt
         ) {
@@ -395,7 +678,8 @@ fetch("data/generated-stocks.json")
         displayLosers(allStocks);
         displayWatchedlist();
         updateWatchlistButtons();
-
+        populatePortfolioOptions(allStocks);
+        displayPortfolio();
         totalCompanies.textContent = allStocks.length;
     })
 
